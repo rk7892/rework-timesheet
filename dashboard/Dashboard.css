@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+.logoimg{
+    margin-left: 20px;
+}
+.left-side>ul>li{
+    margin-top: 20px;
+}
+.profile-arrow>svg{
+    margin-top: 5px;
+}
+.dropdown-menu{
+    width: 200px;
+}
+.profile-arrow-mail{
+    color: #667085;
+}
+.hours-allocation>h6{
+    color: #4D4D4D;
+    font-weight: 500;
+    font-size: 14px;
+}
+.hours-allocation-dropdown>button{
+    color: #878686;
+    font-size: 12px;
+    font-weight: 400;
+}
+.hours-allocation-percentage>span{
+    background-color: #004CFF;
+    width: 18px;
+    height: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.hours-allocation-percentage>h6{
+    font-size: 14px;
+}
+.hours-allocation-percentage>h5{
+    font-size: 14px;
+    color: #878686;
+}
+.hours-allocation-percentage-other>span{
+    background-color: #E5E5E5;
+    width: 18px;
+    height: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.hours-allocation-percentage-other>h6{
+    font-size: 14px;
+}
+.hours-allocation-percentage-other>h5{
+    font-size: 14px;
+    color: #878686;
+}
+.hours-allocation-percentage-nonbillable>span{
+    background-color: rgba(0, 76, 255, 0.46);
+    width: 18px;
+    height: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.hours-allocation-percentage-nonbillable>h6{
+    font-size: 14px;
+}
+.hours-allocation-percentage-nonbillable>h5{
+    font-size: 14px;
+    color: #878686;
+}
+.employee-utilisation-percentage-other>span{
+    background-color: #00B71E;
+    width: 18px;
+    height: 10px;
+    padding-left: 10px;
+    margin-top: 65px;
+}
+.employee-utilisation-percentage-other>h6{
+    font-size: 14px;
+    margin-top: 60px;
+}
+.employee-utilisation-percentage-other>h5{
+    font-size: 14px;
+    color: #878686;
+    margin-top: 60px;
+}
+.employee-utilisation-percentage-nonbillable>span{
+    background-color: #99E2A5;
+    width: 18px;
+    height: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.employee-utilisation-percentage-nonbillable>h6{
+    font-size: 14px;
+}
+.employee-utilisation-percentage-nonbillable>h5{
+    font-size: 14px;
+    color: #878686;
+}
+.no-of-client>h6{
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 14px;
+    font-weight: 500;
+}
+.chart_week>h6{
+    color: #838383;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.month{
+    transform: rotate(-90deg);
+    width: 200px;
+    margin-left: -90px;
+    margin-top: 80px;
+}
+.sub-status-month h6{
+    color: #838383;
+    font-size: 12px;
+    font-weight: 400;
+}
+.sub-status-month-month{
+    margin-left: -20px;
+    padding-top: 15px;
+}
+.resource-billability{
+    margin-top: -90px;
+}
+.chart_resource_percentage>h6{
+    color: #838383;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+.Resource-status-month h6{
+    color: #838383;
+    font-size: 12px;
+    font-weight: 400;
+}
+.our-project{
+    color: #838383;
+    font-size: 12px;
+    font-weight: 400;
+}
+.shopify h6{
+    font-size: 14px;
+    color: #252F40;
+    margin-left: -20px;
+}
+.shopify-bar{
+    margin-left: 50px;
+}
+.shopify-bar-percent>h6{
+    color: #67748E;
+}
+.rounded-circle{
+    margin-left: -10px;
+}
+.our-client h6{
+    color: #8392AB;
+    font-size: 14px ;
+}
