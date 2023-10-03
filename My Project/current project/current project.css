@@ -52,9 +52,12 @@ input[type="text"] {
     color: #666;
 }
 /* card section */
+.box-section a{
+    text-decoration: none;
+}
 
 .card {
-    border-radius: 1px;
+    border-radius: 10px;
     background: #FFF;
     margin-top: 20px;
     margin-left: 10px;
@@ -64,9 +67,9 @@ input[type="text"] {
 #title h5 {
     color: #000;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 38px;
 }
 
