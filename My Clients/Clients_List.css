@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.logoimg {
+    margin-left: 20px;
+}
+
+.left-side>ul>li {
+    margin-top: 20px;
+}
+
+.profile-arrow>svg {
+    margin-top: 5px;
+}
+
+.dropdown-menu {
+    width: 200px;
+}
+
+.profile-arrow-mail {
+    color: #667085;
+}
+
+.my-client-text {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+#table-head>th {
+    background-color: #F4F4F4;
+    border-bottom: none;
+    color: #7B7B7B;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+tr {
+    height: 40px;
+
+}
+
+td {
+    color: #000;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* search box */
+.search-container {
+    width: 200px;
+    height: 45px;
+
+}
+
+.search-container input {
+    width: 194px;
+    height: 39px;
+    border: 1px solid #D0D5DD;
+    border-radius: 4px;
+    outline: none;
+    color: #87888C;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.search-container input::placeholder {
+    color: #87888C;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.search-container input[type="text"] {
+    outline: none;
+    color: #87888C;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.search-icon {
+    position: absolute;
+    color: #666666;
+}
+
+/* + button */
+.create-button {
+    height: 48px;
+    width: 48px;
+}
