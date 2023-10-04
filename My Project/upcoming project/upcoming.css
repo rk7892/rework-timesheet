@@ -106,39 +106,9 @@ line-height: 20px; /* 142.857% */
     line-height: 38px;
 }
 
-.badges {
-    background-color: rgba(14, 184, 91, 0.12);
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    margin-right: 30px;
-    line-height: normal;
-    width: 90px;
-    height: 30px;
-    text-align: center;
-}
-
-.badges span {
-    color: #0EB85B;
-}
-.text-nobill span {
-    color: #FFB406;
 
 
-}
-.text-nobill {
-    background-color: rgba(255, 180, 6, 0.12);
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    margin-right: 30px;
-    line-height: normal;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-}
+
 /* card-section */
 #para1{
     color: #7B7B7B;
@@ -179,6 +149,9 @@ line-height: 23px;
 .create-button{
     height: 48px;
     width: 48px;
+}
+.button{
+    margin-top: 110px;
 }
 
 
