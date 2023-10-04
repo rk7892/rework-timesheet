@@ -68,6 +68,7 @@ html {
     font-weight: 700;
     line-height: 18px;
 }
+
 /* upload logo button  */
 .Uploadlogo {
     width: 273px;
@@ -95,7 +96,7 @@ html {
 
 
 
- .client-form input::placeholder {
+.client-form input::placeholder {
     color: #87888C;
     font-family: Mulish;
     font-size: 12px;
@@ -110,7 +111,66 @@ html {
     font-weight: 600;
 }
 
-.form-control{
+.form-control {
     width: 273px;
     height: 44px;
+}
+
+.same-adress-text {
+    color: #999;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Contact-details-text {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+
+
+.client-details-form input::placeholder {
+    color: #87888C;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.client-details-form input[type="text"] {
+    outline: none;
+    color: #87888C;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.form-label-2 {
+    color: #20102B;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+}
+.button {
+    background-color:#FF8000;
+    width: 73px;
+    height: 44px;
+    flex-shrink: 0;
+    margin-top: 30px;  
+    border-radius: 4px;
+
+}
+.button a{
+    color: white;
+
 }

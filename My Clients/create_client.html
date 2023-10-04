@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BuildINT_Timesheet</title>
     <!-- css -- link -->
-    <link rel="stylesheet" href="/My Clients/create_client.css">
+    <link rel="stylesheet" href="/rework-timesheet/My Clients/create_client.css">
     <!-- font -- link -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish" />
@@ -241,7 +241,7 @@
                         </label>
                         <input id="file-input" type="file" />
                     </div> -->
-                    <div class="col-12">
+                    <div class="col-md-12">
                         <div class="col-3">
 
                             <div class="image-upload d-flex align-items-center Uploadlogo ms-3 mt-1 ">
@@ -283,18 +283,98 @@
 
                     <div class="row col-md-12  ps-3 mt-2">
                         <div class="col-md-6 ">
-                            <label for="Company name " class="form-label-1">Company name </label>
-                            <input type="text" class="form-control mt-1" id="Company name" placeholder="XYZ">
+                            <div class="d-flex justify-content-between">
+                                <label for="Address" class="form-label-1">Address</label>
+                                <div class="form-check">
+                                    <input class="form-check-input mt-2" style="height: 14px;width: 14px;"
+                                        type="checkbox" value="" id="flexCheckChecked" checked>
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        <span class="same-adress-text">Same Address For Billing Address</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control mt-1" id="Address"
+                                placeholder="72H Poorur ,Chennai ,600028 .">
                         </div>
                         <div class="col-md-6 ">
-                            <label for="Location " class="form-label-1">Location</label>
-                            <input type="text" class="form-control mt-1" id="Location" placeholder="India">
+                            <label for="Billing address " class="form-label-1">Billing address</label>
+                            <input type="text" class="form-control mt-1" id="Billing address"
+                                placeholder="72H Poorur ,Chennai ,600028 .">
                         </div>
 
 
                     </div>
 
                 </form>
+                <!-- form -- end  -->
+                <div class="col-md-12 ps-3 mt-3">
+                    <span class="Contact-details-text">Contact Details</span>
+                </div>
+
+
+
+                <form action="" class="client-details-form mt-3">
+                    <div class="col-md-12 d-flex">
+                        <div class="col-md-10 d-flex">
+                            <div class="col-md-3 ps-3">
+                                <label for="Contact person" class="form-label-2">Contact person</label>
+                                <input type="text" class="form-control form2 mt-1" id="Contact person"
+                                    placeholder="Arun">
+                            </div>
+                            <div class="col-md-3 ps-3">
+                                <label for="Position" class="form-label-2">Position</label>
+                                <input type="text" class="form-control form2 mt-1" id="Position" placeholder="Arun">
+                            </div>
+                            <div class="col-md-3 ps-3">
+                                <label for="Phone Number" class="form-label-2">Phone Number</label>
+                                <input type="text" class="form-control form2 mt-1" id="Phone Number"
+                                    placeholder="00000 00000">
+                            </div>
+                            <div class="col-md-3 ps-3">
+                                <label for="Company name " class="form-label-2">Company name </label>
+                                <input type="text" class="form-control form2 mt-1" id="Company name" placeholder="XYZ">
+                            </div>
+
+                        </div>
+                        <div class="col-md-2 d-flex justify-content-end">
+                            <div class="button d-flex justify-content-center align-items-center me-4">
+                                <a class=" text-decoration-none" href="#" role="button">+ Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <table>
+                    
+                </table>
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
