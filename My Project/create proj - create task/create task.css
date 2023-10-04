@@ -54,8 +54,24 @@ line-height: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0.3px;
-
 }
+#validationDefault04{
+    height: 44px;
+    width: 273px;
+}
+
+.form-label{
+    color: red;
+}
+#validationCustom01{
+    height: 44px;
+    width: 273px;
+}
+
+
+
+
+
 
 
 
