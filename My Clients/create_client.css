@@ -161,16 +161,47 @@ html {
     font-weight: 600;
     line-height: 18px;
 }
+
 .button {
-    background-color:#FF8000;
+    background-color: #FF8000;
     width: 73px;
     height: 44px;
     flex-shrink: 0;
-    margin-top: 30px;  
+    margin-top: 30px;
     border-radius: 4px;
 
 }
-.button a{
+
+.button a {
     color: white;
 
+}
+
+.create-client-table {
+    height: 46px;
+    background-color: #F4F4F4;
+    border-radius: 4px;
+    text-align: top;
+}
+
+.contact-details-row1 {
+    color: #878686;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact-details-row2 {
+    color: #000;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.material-symbols-outlined{
+    color: #7E7E7E;
+    font-size: 20px;
 }
