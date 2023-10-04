@@ -3,9 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+.left-side-img img{
+    width: 784px;
+
+}
 
 .logo-img img {
-    margin-left: 45px;
+    margin-left: 25px;
 
 }
 
@@ -14,6 +18,7 @@
     font-weight: 400;
     font-size: 13px;
     line-height: 22px;
+    margin-right: 5px;
 }
 
 .head h5 {
@@ -21,7 +26,7 @@
     font-size: 17px;
     font-weight: 600;
     line-height: 22px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 40px;
 }
 
@@ -34,7 +39,7 @@
 }
 
 .login-form {
-    margin-left: 80px;
+    margin-left: 60px;
 
 }
 
@@ -43,7 +48,7 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .login-form label {
@@ -51,12 +56,12 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
-    margin-top: 25px;
+    margin-top: 12px;
 
 }
 
 .login-form input {
-    width: 510px;
+    width: 530px;
     height: 60px;
     margin-top: 10px;
     border-radius: 4px;
@@ -73,6 +78,7 @@
     font-weight: 400;
     line-height: 18px;
     margin-top: 20px;
+    color: #2560e8;
 
 }
 
@@ -87,9 +93,9 @@
 }
 
 .login-form button {
-    width: 510px;
+    width: 530px;
     height: 60px;
-    margin-top: 60px;
+    margin-top: 40px;
     border-radius: 4px;
     background-color: #1755E7;
     color: white;
@@ -104,5 +110,6 @@
     font-size: 14px;
     font-weight: 100;
     line-height: 18px;
-    margin-top: 170px;
+    margin-top: 70px;
+    margin-right: 5px;
 }
