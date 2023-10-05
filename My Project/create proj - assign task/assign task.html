@@ -315,61 +315,97 @@
                 <!-- nav links -->
                 <ul class="nav  nav-tabs nav-underline ms-3 mt-4">
                     <li class="nav-item  nav-items">
-                        <a class="nav-link   ps-3 pe-3 " href="/" style="border-bottom:2px solid #004CFF;">Create
+                        <a class="nav-link   ps-3 pe-3 text-secondary "
+                            href="/My Project/create proj - create task/create task.html">Create
                             Task</a>
                     </li>
                     <li class="nav-item disabled-link">
-                        <a class="nav-link  ps-3  pe-3 text-secondary" href="#">Assign Team</a>
+                        <a class="nav-link  ps-3  pe-3 " href="#" style="border-bottom:2px solid #004CFF;">Assign
+                            Team</a>
                     </li>
                 </ul>
-                <!-- form section -->
-                <form class="col-12 d-flex ps-4 mt-4" id="form2">
-                    <div class="col-md-2">
-                        <label for="validationDefault04" class="form-label label">Task</label>
-                        <input type="time" class="form-control" placeholder="UI/UX" id="validationCustom02" required>
+                <form class="col-12 d-flex ps-4 mt-3" id="form2">
+                    <div class="col-md-3">
+                        <label for="validationDefault04" class="form-label">Task</label>
+                        <select class="form-select" id="validationDefault04" required>
+                            <option selected disabled value="">Requirement gathering</option>
+                            <option>Requirement gathering</option>
+                            <option>UI/UX Design</option>
+                            <option>Database Design</option>
+                            <option>Web App Development</option>
+                            <option>Mobile App Development</option>
+                            <option>API Development</option>
+                            <option>Testing</option>
+                            <option>Deployment</option>
+                            <option>UAT</option>
+                            <option>Support</option>
 
-                    </div>
-                    <div class="col-md-2">
-                        <label for="validationDefault04" class="form-label label">No. Of Hours For This Task</label>
-                        <input type="date" class="form-control" placeholder="Set Project Name " id="validationCustom02"
-                            required>
-
-                    </div>
-                    <div class="col-md-2">
-                        <label for="validationDefault04" class="form-label label">Start Date</label>
-                        <input type="date" class="form-control" placeholder="12-07-2023 " id="validationCustom02"
-                            required>
-
-                    </div>
-                    <div class="col-md-2">
-                        <label for="validationDefault04" class="form-label label">Completion date</label>
-                        <input type="time" class="form-control" placeholder="20-07-2023" id="validationCustom02"
-                            required>
-                    </div>
-                    <div class="col-md-2">
-                        <label for="validationDefault04" class="form-label label">Status</label>
-                        <select class="form-select" id="validationDefault03" required>
-                            <option selected disabled value="">On going</option>
-                            <option>On going </option>
-                            <option>Completed</option>
-                            <option>In active</option>
-                            <option>Hold</option>
                         </select>
-                    </div>
-                    <div class="col-md-1 ">
-                        <div class="button d-flex justify-content-center align-items-center">
-                            <a class=" text-decoration-none" href="#" role="button">+ Add</a>
-                        </div>
 
                     </div>
-                    <div class="col-md-1 ">
+                    <div class="col-md-3">
+                        <!-- <label for="validationDefault04" class="form-label">Project Name</label>
+                        <input type="text" class="form-control" placeholder="Set Project Name " id="validationCustom01"
+                            required> -->
+                        <label for="validationDefault04" class="form-label">Select Employees</label>
+                        <select class="form-select" id="validationDefault04" required>
+                            <option selected>Arun Ram</option>
+                            <option>Arun Ram</option>
+                            <option>vino</option>
+                            <option>Tushar</option>
+                            <option>Ranjith</option>
+                        </select>
+
+
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationDefault04" class="form-label">No.of Hours for employee</label>
+                        <input type="text" class="form-control" placeholder="40 hrs " id="validationCustom01" required>
+
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationDefault04" class="form-label">Start Date</label>
+                        <input type="date" class="form-control" placeholder="40 hrs " id="validationCustom01" required>
 
                     </div>
                 </form>
+
+                <!-- form 4 -->
+                <div class="col-12">
+                    <form class="d-flex  ms-4 mt-3">
+                        <div class="col-md-3">
+                            <label for="validationDefault04" class="form-label">End Date</label>
+                            <input type="date" class="form-control" placeholder="40 hrs " id="validationCustom01"
+                                required>
+                        </div>
+                        <div class="col-md-3">
+
+                        </div>
+                        <div class="col-md-3">
+
+
+                        </div>
+                        <div class="col-2 "></div>
+
+                        <div class="col-md-1 ">
+                            <div class="button d-flex justify-content-center align-items-center">
+                                <a class=" text-decoration-none" href="#" role="button">+ Add</a>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+
+
+
+
+                <!-- form section -->
+
                 <!-- banner section -->
-                <div class="col-12 mt-5 ">
-                    <section class="banner ms-4 d-flex ">
-                        <div class="col-2 ms-3 mt-3 banner-section">
+                <div class="col-12 banner d-flex mt-5 ">
+                    <section class=" col-12 d-flex justify-content-between">
+                        <div class="col-2 ps-3 pt-3 banner-section">
                             <div>
                                 <h6>Task</h6>
                             </div>
@@ -378,7 +414,7 @@
                             </div>
 
                         </div>
-                        <div class="col-2 ms-2 mt-3 banner-section">
+                        <div class="col-2 ps-3 pt-3 banner-section">
                             <div>
                                 <h6>No. Of Hours For This Task</h6>
                             </div>
@@ -386,7 +422,7 @@
                                 <p>UI/UX</p>
                             </div>
                         </div>
-                        <div class="col-2 ms-2 mt-3 banner-section">
+                        <div class="col-2 ps-3 pt-3 banner-section">
                             <div>
                                 <h6>Start Date</h6>
                             </div>
@@ -396,7 +432,7 @@
 
 
                         </div>
-                        <div class="col-2 ms-2 mt-3 banner-section">
+                        <div class="col-2 ps-3 pt-3 banner-section">
                             <div>
                                 <h6>Completion Date</h6>
                             </div>
@@ -404,7 +440,7 @@
                                 <p>12-07-2023</p>
                             </div>
                         </div>
-                        <div class="col-2 mt-3 banner-section">
+                        <div class="col-2 pt-3 banner-section">
                             <div>
                                 <h6>Status</h6>
                             </div>
@@ -413,35 +449,26 @@
                             </div>
                         </div>
 
-                        <div class="col-2 mt-3 d-flex">
-                            <div>
+                        <div class="col-2 pt-3 d-flex">
+                            
                                 <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#myModal">
                                     <i class="fa fa-pencil " style="color: #707070;font-size: 20px;"></i>
                                 </button>
 
-                            </div>
-                            <div>
+                            
+                           
                                 <button type="button" class="btn " data-bs-toggle="modal"
                                     data-bs-target="#staticBackdrop">
                                     <i class="fa fa-trash-o " style="color: #707070;font-size: 20px;"
                                         aria-hidden="true"></i>
                                 </button>
-                            </div>
+                            
 
                         </div>
                     </section>
-                    <!--  create project button -->
-                    <div class="col-12 d-flex mt-5">
-                        <div class="col-10"></div>
-                        <div class="col-2">
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary ms-4" data-bs-toggle="modal"
-                                data-bs-target="#staticBackdrop1">
-                                Create Project
-                            </button>
-                        </div>
-                    </div>
-                    <!-- Modal -->
+
+
+                    <!-- modal button -->
                     <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
                         tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered">
@@ -451,14 +478,15 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class=" d-flex justify-content-center">
-                                    <img src="images/popup logo.svg"
-                                        alt="create client sucess popup icon">
+                                    <img src="images/popup logo.svg" alt="create client sucess popup icon">
                                 </div>
                                 <h5 class="d-flex justify-content-center mt-3">Client Created Successfully</h5>
                                 <div class="d-flex justify-content-center mt-3 pb-3">
                                     <button type="button"
                                         class="btn btn-primary client-create-pop-button d-flex justify-content-center align-items-center"
-                                        data-bs-dismiss=""><span style="font-size: 12px;"><a href="/My Project/current project/current project.html" class="text-decoration-none text-white">ok</a></span></button>
+                                        data-bs-dismiss=""><span style="font-size: 12px;"><a
+                                                href="/My Project/current project/current project.html"
+                                                class="text-decoration-none text-white">ok</a></span></button>
 
                                 </div>
                             </div>
@@ -466,6 +494,7 @@
                                   
                     </div>
                 </div>
+
                 <!-- edit trigger button  -->
                 <div class="modal" id="myModal">
                     <div class="modal-dialog modal-dialog-centered">
@@ -520,7 +549,7 @@
                                         <div class="col"></div>
 
                                     </div>
-                                    
+
                                 </form>
                             </div>
 
@@ -570,6 +599,22 @@
                                 <button type="button" class="btn btn-primary">Yes</button>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <!-- <div class="col-12 d-flex">
+                    <div class="col-10">
+                        hello
+                    </div>
+                    <div class="col-2">hi</div>
+                </div> -->
+                <div class="col-12 d-flex ">
+                    <div class="col-10"></div>
+                    <div class="col-2 justify-content-end d-flex">
+
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop1">
+                            Create Project
+                        </button>
                     </div>
                 </div>
             </div>
