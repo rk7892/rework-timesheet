@@ -205,3 +205,7 @@ html {
     color: #7E7E7E;
     font-size: 20px;
 }
+.client-create-pop-button{
+    width: 50px;
+height: 30px;
+}
