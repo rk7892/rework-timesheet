@@ -209,3 +209,22 @@ html {
     width: 50px;
 height: 30px;
 }
+.delete-popup-text1{
+    color: #000;
+text-align: center;
+font-family: Mulish;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.25px;
+}
+.delete-popup-text2{
+    color: #000;
+font-family: Mulish;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; 
+letter-spacing: 0.25px;
+}
