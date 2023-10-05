@@ -1,41 +1,46 @@
-.sidebar{
+.sidebar {
     background: #FFF;
-box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
+    box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
 
 }
+
 /* header css */
-.header{
+.header {
     background: #FFF;
-box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
-height: 60px;
+    box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
+    height: 60px;
 }
-.logoimg{
+
+.logoimg {
     margin-left: 30px;
 }
 
-.left-side>ul>li{
+.left-side>ul>li {
     margin-top: 20px;
 }
-.profile-arrow>svg{
+
+.profile-arrow>svg {
     margin-top: 5px;
 }
-.dropdown-menu{
+
+.dropdown-menu {
     width: 200px;
 }
 
 .material-symbols-outlined {
     width: 16px;
     height: 16px;
-    color: #4A4A4A; 
+    color: #4A4A4A;
 }
+
 /* main content */
-.project-heading{
+.project-heading {
     color: #000;
 
-font-size: 28px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 /* search box style */
@@ -66,26 +71,33 @@ input[type="text"] {
     cursor: pointer;
     color: #666;
 }
+
 /* navlinks */
-.nav-items a{
- 
+.active>a {
     font-family: Mulish;
-    /* font-size: 16px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    line-height: 20px; /* 142.857% */
-} */
-.disabled-link a{
+    line-height: 20px;
+}
+
+.active {
+
+    background-color: rgba(0, 76, 255, 0.05);
+}
+
+.disabled-link a {
     color: #344054;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 20px; /* 142.857% */
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
 }
 
 /* card section */
-.box-section a{
+.box-section a {
     text-decoration: none;
 }
 
@@ -110,49 +122,51 @@ line-height: 20px; /* 142.857% */
 
 
 /* card-section */
-#para1{
+#para1 {
     color: #7B7B7B;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 22px; 
-letter-spacing: 0.25px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.25px;
 }
-#para2{
+
+#para2 {
     color: #000;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 22px; 
-letter-spacing: 0.25px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.25px;
 }
-#para3{
+
+#para3 {
     color: #000;
-font-family: Mulish;
-font-size: 13px;
-font-style: normal;
-font-weight: 600;
-line-height: 22px; 
-letter-spacing: 0.25px;
+    font-family: Mulish;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.25px;
 }
-#para4{
+
+#para4 {
     color: #7B7B7B;
-font-family: Mulish;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 23px; 
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
 }
+
 /* + button */
-.create-button{
+.create-button {
     height: 48px;
-    width: 48px;
+    width: 48px;
 }
-.button{
+
+.button {
     margin-top: 110px;
 }
-
-
-
