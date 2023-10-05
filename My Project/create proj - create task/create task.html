@@ -230,8 +230,6 @@
 
                 <div class="project-heading mt-4 ms-4">
                     <h2>Create Project</h2>
-                    <!-- <p><a href="/My Project/current project/current project.html">My Projects</a> / <span>Create
-                            Project</span></p> -->
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item "><a href="/My Project/current project/current project.html"
@@ -324,6 +322,7 @@
                         <a class="nav-link  ps-3  pe-3 text-secondary" href="#">Assign Team</a>
                     </li>
                 </ul>
+                <!-- form section -->
                 <form class="col-12 d-flex ps-4 mt-4" id="form2">
                     <div class="col-md-2">
                         <label for="validationDefault04" class="form-label label">Task</label>
@@ -355,7 +354,6 @@
                             <option>Completed</option>
                             <option>In active</option>
                             <option>Hold</option>
-
                         </select>
                     </div>
                     <div class="col-md-1 ">
@@ -368,6 +366,7 @@
 
                     </div>
                 </form>
+                <!-- banner section -->
                 <div class="col-12 mt-5 ">
                     <section class="banner ms-4 d-flex ">
                         <div class="col-2 ms-3 mt-3 banner-section">
@@ -431,36 +430,43 @@
 
                         </div>
                     </section>
-                    <!-- button -->
+                    <!--  create project button -->
                     <div class="col-12 d-flex mt-5">
                         <div class="col-10"></div>
                         <div class="col-2">
-                              <!-- Button trigger modal -->
+                            <!-- Button trigger modal -->
                             <button type="button" class="btn btn-primary ms-4" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
+                                data-bs-target="#staticBackdrop1">
                                 Create Project
                             </button>
                         </div>
                     </div>
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
+                    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    Project created successfully
-                                   
+                            <div class="modal-content" style="height: 185px; width: 450px;">
+                                <div class="d-flex justify-content-end mt-2 me-2">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
                                 </div>
-                               
-                              
-                                <div class="modal-footer">
-                                    <div class="btn btn-primary"><a href="/My Project/current project/current project.html" class="text-decoration-none text-white">ok</a></div>                
+                                <div class=" d-flex justify-content-center">
+                                    <img src="images/popup logo.svg"
+                                        alt="create client sucess popup icon">
+                                </div>
+                                <h5 class="d-flex justify-content-center mt-3">Client Created Successfully</h5>
+                                <div class="d-flex justify-content-center mt-3 pb-3">
+                                    <button type="button"
+                                        class="btn btn-primary client-create-pop-button d-flex justify-content-center align-items-center"
+                                        data-bs-dismiss=""><span style="font-size: 12px;"><a href="/My Project/current project/current project.html" class="text-decoration-none text-white">ok</a></span></button>
+
                                 </div>
                             </div>
                         </div>
+                                  
                     </div>
                 </div>
-                <!-- edit button  -->
+                <!-- edit trigger button  -->
                 <div class="modal" id="myModal">
                     <div class="modal-dialog modal-dialog-centered">
                         <div class="modal-content">
@@ -512,7 +518,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- delete button -->
+                <!-- delete  trigger button -->
                 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                     <div class=" modal-dialog modal-dialog-centered">

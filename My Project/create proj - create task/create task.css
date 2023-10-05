@@ -74,6 +74,7 @@
     font-weight: 400;
     line-height: normal;
 }
+/* nav-links */
 
 .nav-items a {
 
@@ -141,6 +142,7 @@
     color: white;
 
 }
+/* banner section */
 
 .banner {
     width: 1199px;
@@ -167,6 +169,7 @@
     font-weight: 600;
     line-height: normal;
 }
+/* modal button style */
 
 .modal-title {
     color: #000;
@@ -189,7 +192,8 @@ font-weight: 400;
 line-height: 20px; /* 125% */
 letter-spacing: 0.25px;
 }
-/* + button */
+
+/* create button*/
 .create-button{
     height: 19px;
     width: px;
