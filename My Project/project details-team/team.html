@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Project</title>
     <!-- stylesheet link -->
-    <link rel="stylesheet" href="current project.css">
+    <link rel="stylesheet" href="team.css">
     <!-- google fonts links -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish" />
@@ -227,137 +227,298 @@
                     </div>
                 </div>
                 <!-- main content -->
-                <div class="d-flex justify-content-between">
-                 
-                        <h2 class="project-heading mt-4 ms-4">My Projects</h2>
-                    
-                
-                        <div class="search-container mt-4 ">
-                            <input type="text" placeholder="Search" />
-
-                            <span class="material-symbols-outlined search-button">
-                                search
-                            </span>
+                <div class="container">
+                    <div class="d-flex justify-content-between mt-4">
+                        <div>
+                            <h2 class="project-heading ">My Projects</h2>
+                            <!-- breadcumb -->
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item "><a href="/" class="text-decoration-none text-dark">My
+                                            Projects </a></li>
+                                    <li class="breadcrumb-item fw-bold" aria-current="page">Create Project</li>
+                                </ol>
+                            </nav>
                         </div>
-                    
-                </div>
-                <!-- nav links -->
-                <ul class="nav  nav-tabs nav-underline ms-3 mt-4">
-                    <li class="nav-item active">
-                        <a class="nav-link   ps-3 pe-3" aria-current="page" href="#" style="border-bottom:2px solid #004CFF;">Current Project</a>
-                    </li>
-                    <li class="nav-item disabled-link">
-                        <a class="nav-link ps-3  pe-3 "
-                            href="/My Project/upcoming project/upcoming.html">Upcoming Project</a>
-                    </li>
-                    <li class="nav-item disabled-link">
-                        <a class="nav-link  ps-3 pe-3 "
-                            href="/My Project/completed project/completed project.html" >Completed Project</a>
-                    </li>
-                </ul>
-                <!-- card 1 -->
-                <section class="box-section d-flex ms-3 mt-2">
-                    <a href="">
-                        <div class="card" style="width: 350px; height: 280px">
-                            <div class="card-body">
-                                <div class=" col-12 d-flex justify-content-between">
-                                    <div class="col-9"><h5 id="title">Project 1</h5></div>
-                                   
-                                        
-                                  
-                                    <div class="badges col-3">
-                                        <span class="badge mt-1">Billable </span>
-                                    </div>
-                                </div>
+                        <!-- edit button -->
+                        <div class=" w-20">
+                            <div class="btn btn-outline-secondary me-4">
+                                <i class="fa fa-pencil pe-2" aria-hidden="true"></i> Edit
+                            </div>
+                        </div>
+                    </div>
+                    <!-- project-detail section -->
+                    <div class="col-12 d-flex justify-content-between mt-3 section ">
+                        <div class="col-8 d-flex justify-content-between project-detail pt-4 ps-4">
+                            <div>
+                                <p>Project Name</p>
+                                <h6>SMRT</h6>
+                            </div>
+                            <div>
+                                <p>Project Manager</p>
+                                <h6>Tushar B</h6>
+                            </div>
+                            <div>
+                                <p>Project Type</p>
+                                <h6>Billable</h6>
+                            </div>
+                            <div>
+                                <p>Total Hours</p>
+                                <h6>4 hrs</h6>
+                            </div>
+                            <div>
+                                <p>Start Date </p>
+                                <h6>18 July 2023</h6>
+                            </div>
+                            <div>
+                                <p>End Date</p>
+                                <h6>27 July 2023</h6>
+                            </div>
+                        </div>
+                        <div class="col-1"></div>
+                        <div class="col-3 pt-4 project-detail">
+                            <div class="d-flex justify-content-between">
+                                <p>Progress</p>
+                                <p>45%</p>
+                            </div>
 
-                                <div class="card-text d-flex justify-content-between">
-                                    <div class="mt-3">
-                                        <p id="para1">Project name</p>
-                                        <p id="para2">SMRT</p>
-                                    </div>
-                                    <div class="mt-3">
-                                        <p id="para1">Project Manager</p>
-                                        <p id="para2">Tushar</p>
-                                    </div>
-                                </div>
+                            <div class="progress mb-2" style="height:7px">
+                                <div class="progress-bar" style="width:45%;border-radius: 4px;"></div>
+                            </div>
 
-                                <div class="card-text d-flex justify-content-between mt-3">
-                                    <div>
-                                        <p id="para3">Start: July/18/23</p>
-                                    </div>
-                                    <div>
-                                        <p id="para3" style="margin-right:30px ;">End: July/27/23</p>
-                                    </div>
-                                </div>
-                                <div class="progress" style="height:7px">
-                                    <div class="progress-bar" style="width:45%;border-radius: 4px;"></div>
-                                </div>
+                            <div class="d-flex justify-content-between progress-hour">
+                                <h6>Allocate hrs 280</h6>
+                                <h6>Utilise hrs 90</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- nav links -->
+                    <ul class="nav  nav-tabs nav-underline  mt-4">
+                        <li class="nav-item active">
+                            <a class="nav-link   ps-3 pe-3" aria-current="page" href="#"
+                                style="border-bottom:2px solid #004CFF;">Team</a>
+                        </li>
+                        <li class="nav-item disabled-link">
+                            <a class="nav-link ps-3  pe-3 " href="/">Task</a>
 
-                                <div class="card-text d-flex justify-content-between mt-3">
-                                    <div>
-                                        <p id="para4">Process</p>
+                    </ul>
+                    <!-- ux/ui menu -->
+                    <div class="col-12 d-flex mt-4 project-team ps-4 pt-3">
+                        <div class="col-7">
+                            <h6>UI / UX</h6>
+                            <p>Web Design</p>
+
+                        </div>
+                        <div class="col-sm-5 d-flex justify-content-between">
+                            <div>
+                                <h6>120</h6>
+                                <p>Total Hours</p>
+
+                            </div>
+                            <div>
+                                <h6>26</h6>
+                                <p>Completed Hours</p>
+
+                            </div>
+                            <div>
+                                <h6>04</h6>
+                                <p>Total Employee</p>
+
+                            </div>
+                            <div class="mx-3">
+                                <a href="#demo" class="btn " data-bs-toggle="collapse"><i class="fa fa-angle-up"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- collapse trigger  menu -->
+                    <div class="col-12 ">
+                        <div class="collapse" id="demo">
+                            <div class="d-flex justify-content-between collapse-menu pt-3">
+                                <div class="col-7  ps-3 ">
+                                    <h6>Arun Ram</h6>
+                                </div>
+                                <div class="col-2"></div>
+
+                                <div class="col-3 pt-">
+                                    <div class="d-flex justify-content-between">
+                                        <p>Allocate hrs 40</p>
+                                        <p>Utilise hrs 20</p>
                                     </div>
-                                    <div>
-                                        <p id="para4">45%</p>
+
+                                    <div class="progress" style="height:7px">
+                                        <div class="progress-bar" style="width:45%;border-radius: 4px;"></div>
                                     </div>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between collapse-menu pt-3">
+                                <div class="col-7  ps-3 ">
+                                    <h6>Karthik</h6>
+                                </div>
+                                <div class="col-2"></div>
+
+                                <div class="col-3">
+                                    <div class="d-flex justify-content-between">
+                                        <p>Allocate hrs 40</p>
+                                        <p>Utilise hrs 20</p>
+                                    </div>
+
+                                    <div class="progress" style="height:7px">
+                                        <div class="progress-bar" style="width:45%;border-radius: 4px;"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between collapse-menu pt-3">
+                                <div class="col-7  ps-3 ">
+                                    <h6>Naveen</h6>
+                                </div>
+                                <div class="col-2"></div>
+
+                                <div class="col-3">
+                                    <div class="d-flex justify-content-between">
+                                        <p>Allocate hrs 40</p>
+                                        <p>Utilise hrs 20</p>
+                                    </div>
+
+                                    <div class="progress" style="height:7px">
+                                        <div class="progress-bar" style="width:45%;border-radius: 4px;"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between collapse-menu pt-3">
+                                <div class="col-7  ps-3 ">
+                                    <h6>Vinu</h6>
+                                </div>
+                                <div class="col-2"></div>
+
+                                <div class="col-3">
+                                    <div class="d-flex justify-content-between">
+                                        <p>Allocate hrs 40</p>
+                                        <p>Utilise hrs 20</p>
+                                    </div>
+
+                                    <div class="progress" style="height:7px">
+                                        <div class="progress-bar" style="width:45%;border-radius: 4px;"></div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <!-- frontend development section  -->
+                    <div class="col-12 d-flex mt-4 project-team ps-4 pt-3">
+                        <div class="col-7">
+                            <h6>Front End</h6>
+                            <p>Web Development</p>
+
+                        </div>
+                        <div class="col-sm-5 d-flex justify-content-between">
+                            <div>
+                                <h6>140</h6>
+                                <p>Total Hours</p>
+
+                            </div>
+                            <div>
+                                <h6>26</h6>
+                                <p>Completed Hours</p>
+
+                            </div>
+                            <div>
+                                <h6>04</h6>
+                                <p>Total Employee</p>
+
+                            </div>
+                            <div class="mx-3">
+                                <a href="#demos" class="btn " data-bs-toggle="collapse"><i class="fa fa-angle-up"
+                                        aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- collapse trigger  menu -->
+                    <div class="col-12 ">
+                        <div class="collapse" id="demos">
+                            <div class="d-flex justify-content-between collapse-menu pt-3">
+                                <div class="col-7  ps-3 ">
+                                    <h6>Ranjith</h6>
+                                </div>
+                                <div class="col-2"></div>
+
+                                <div class="col-3 pt-">
+                                    <div class="d-flex justify-content-between">
+                                        <p>Allocate hrs 40</p>
+                                        <p>Utilise hrs 20</p>
+                                    </div>
+
+                                    <div class="progress" style="height:7px">
+                                        <div class="progress-bar" style="width:45%;border-radius: 4px;"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between collapse-menu pt-3">
+                                <div class="col-7  ps-3 ">
+                                    <h6>Hari</h6>
+                                </div>
+                                <div class="col-2"></div>
+
+                                <div class="col-3">
+                                    <div class="d-flex justify-content-between">
+                                        <p>Allocate hrs 40</p>
+                                        <p>Utilise hrs 20</p>
+                                    </div>
+
+                                    <div class="progress" style="height:7px">
+                                        <div class="progress-bar" style="width:45%;border-radius: 4px;"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between collapse-menu pt-3">
+                                <div class="col-7  ps-3 ">
+                                    <h6>Dinesh</h6>
+                                </div>
+                                <div class="col-2"></div>
+
+                                <div class="col-3">
+                                    <div class="d-flex justify-content-between">
+                                        <p>Allocate hrs 40</p>
+                                        <p>Utilise hrs 20</p>
+                                    </div>
+
+                                    <div class="progress" style="height:7px">
+                                        <div class="progress-bar" style="width:45%;border-radius: 4px;"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between collapse-menu pt-3">
+                                <div class="col-7  ps-3 ">
+                                    <h6>Mukesh</h6>
+                                </div>
+                                <div class="col-2"></div>
+
+                                <div class="col-3">
+                                    <div class="d-flex justify-content-between">
+                                        <p>Allocate hrs 40</p>
+                                        <p>Utilise hrs 20</p>
+                                    </div>
+
+                                    <div class="progress" style="height:7px">
+                                        <div class="progress-bar" style="width:45%;border-radius: 4px;"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- button -->
+                    <a class="btn btn-primary float-end add-button" href="#" role="button">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
                     </a>
-                    <!-- card 2 -->
-                    <div class="card" style="width: 350px; height: 280px">
-                        <div class="card-body">
-                            <div class=" col-12 d-flex justify-content-between">
-                                <div class="col-9"><h5 id="title">Project 2</h5></div>
-                                <div class="text-nobill">
-                                    <span class="badge mt-1"> Non Billable </span>
-                                </div>
-                            </div>
-
-                            <div class="card-text d-flex justify-content-between">
-                                <div class="mt-3">
-                                    <p id="para1">Project name</p>
-                                    <p id="para2">SMRT</p>
-                                </div>
-                                <div class="mt-3">
-                                    <p id="para1">Project Manager</p>
-                                    <p id="para2">Tushar</p>
-                                </div>
-                            </div>
-
-                            <div class="card-text d-flex justify-content-between mt-3">
-                                <div>
-                                    <p id="para3">Start: July/18/23</p>
-                                </div>
-                                <div>
-                                    <p id="para3" style="margin-right:30px ;">End: July/27/23</p>
-                                </div>
-                            </div>
-                            <div class="progress" style="height:7px">
-                                <div class="progress-bar" style="width:75%;border-radius: 4px;"></div>
-                            </div>
-
-                            <div class="card-text d-flex justify-content-between mt-3">
-                                <div>
-                                    <p id="para4">Process</p>
-                                </div>
-                                <div>
-                                    <p id="para4">75%</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- button -->
-              <div class="mt-5 d-flex justify-content-end me-4">
-                    <div class="btn btn-primary">
-                        <span class="material-symbols-outlined d-flex align-items-center justify-content-center text-white">add</span>
-                    </div>
-              </div>
-              
-               
-                  
-                
+                </div>
             </div>
         </div>
     </div>
