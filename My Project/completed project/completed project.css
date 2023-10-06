@@ -164,12 +164,11 @@ font-weight: 500;
 line-height: 23px; 
 }
 /* + button */
-.create-button{
-    height: 48px;
-    width: 48px;
+.add-button {
+    margin-top: 170px;
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #004CFF;
 }
-.button{
-    margin-top: 110px;
-}
-
 
