@@ -6,11 +6,15 @@
 body,html{
     height: 100%;
 }
-.logoimg{
+/* .logoimg{
     margin-left: 20px;
-}
-.left-side>ul>li{
+} */
+/* .left-side>ul>li{
     margin-top: 20px;
+} */
+.header {
+    background: #FFF;
+    box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
 }
 .profile-arrow>svg{
     margin-top: 5px;
