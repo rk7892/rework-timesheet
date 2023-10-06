@@ -10,17 +10,16 @@ body {
     height: 100%;
 }
 
-.left-box ul li {
+.left-box li {
     position: relative;
     list-style: none;
     padding-top: 20px;
 
 }
 
-.left-box ul li a {
+.left-box li a {
     text-decoration: none;
     color: black;
-  
 
 }
 
@@ -47,11 +46,19 @@ body {
     margin-top: -40px; 
      margin-left: 200px;
 }
-.dropdown-menu a{
-    
+.form-grp .down a{
+    color: black;
     text-decoration: none;
 }
 .form-grp .month{
     margin-top: -40px; 
     margin-left: 200px;
 }
+.expand{
+    margin-bottom: 50px;
+}
+.download{
+    margin-left: 200px;
+    margin-top: -30px;
+}
+
