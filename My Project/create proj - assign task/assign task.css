@@ -1,29 +1,25 @@
-.sidebar {
-    background: #FFF;
-    box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-/* header css */
+body,html{
+    height: 100%;
+}
+/* .logoimg{
+    margin-left: 20px;
+} */
+/* .left-side>ul>li{
+    margin-top: 20px;
+} */
 .header {
     background: #FFF;
     box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
-    height: 60px;
 }
-
-.logoimg {
-    margin-left: 30px;
-}
-
-.left-side>ul>li {
-    margin-top: 20px;
-}
-
-.profile-arrow>svg {
+.profile-arrow>svg{
     margin-top: 5px;
 }
-
-.dropdown-menu {
+.dropdown-menu{
     width: 200px;
 }
 
@@ -76,21 +72,26 @@
 }
 /* nav-links */
 
-.nav-items a {
-
+.active>a {
     font-family: Mulish;
-    /* font-size: 16px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    line-height: 20px; /* 142.857% */
+    line-height: 20px;
 }
 
-*/ .disabled-link a {
+.active {
+
+    background-color: rgba(0, 76, 255, 0.05);
+
+}
+
+.disabled-link a {
     color: #344054;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 20px;
     /* 142.857% */
 }

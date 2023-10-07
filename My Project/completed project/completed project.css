@@ -1,20 +1,20 @@
-.sidebar{
-    background: #FFF;
-box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-/* header css */
-.header{
-    background: #FFF;
-box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
-height: 60px;
+body,html{
+    height: 100%;
 }
-.logoimg{
-    margin-left: 30px;
-}
-
-.left-side>ul>li{
+/* .logoimg{
+    margin-left: 20px;
+} */
+/* .left-side>ul>li{
     margin-top: 20px;
+} */
+.header {
+    background: #FFF;
+    box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
 }
 .profile-arrow>svg{
     margin-top: 5px;
