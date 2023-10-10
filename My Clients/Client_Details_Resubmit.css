@@ -9,12 +9,9 @@ html {
     height: 100%;
 }
 
-.logoimg {
-    margin-left: 20px;
-}
-
-.left-side>ul>li {
-    margin-top: 20px;
+.header {
+    background: #FFF;
+    box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
 }
 
 .profile-arrow>svg {
@@ -28,7 +25,6 @@ html {
 .profile-arrow-mail {
     color: #667085;
 }
-
 /* main section */
 
 .project-heading h1 {
