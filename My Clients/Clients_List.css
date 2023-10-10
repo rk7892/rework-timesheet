@@ -26,6 +26,7 @@ html {
     color: #667085;
 }
 
+/* main -- content -- */
 .my-client-text {
     color: #000;
     font-family: Inter;
@@ -109,6 +110,7 @@ td {
 
 /* + button */
 .create-button {
+    
     height: 48px;
     width: 48px;
 }
