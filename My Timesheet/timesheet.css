@@ -102,3 +102,17 @@ line-height: normal;
     font-weight: 500;
     line-height: normal;
 }
+.submitted-section{
+    height: 90px;
+    border-radius: 8px;
+border: 1px solid #EDEDED;
+background: #FFF;
+}
+.approval{
+   
+        width: 5px;    
+        background: #FFB406;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+ 
+}
