@@ -63,21 +63,25 @@ html {
     flex-shrink: 0;
     border-radius: 2px;
     text-align: center;
-    background-color: #ECECEC;;
+    background-color: #ECECEC;
+    ;
 }
-.table-header{
+
+.table-header {
     border-bottom: 1px solid #EAECF0;
-background: #F4F4F4;
+    background: #F4F4F4;
 }
-.table-head{
+
+.table-head {
     color: #000;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
-th div{
+
+th div {
     color: #000;
     font-family: Inter;
     font-size: 14px;
@@ -86,15 +90,8 @@ th div{
     line-height: normal;
     opacity: 0.6;
 }
-th{
-    color: #878686;
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.table-hour{
+
+th {
     color: #878686;
     font-family: Inter;
     font-size: 16px;
@@ -102,17 +99,99 @@ line-height: normal;
     font-weight: 500;
     line-height: normal;
 }
-.submitted-section{
+
+.table-hour {
+    color: #878686;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.submitted-section {
     height: 90px;
     border-radius: 8px;
-border: 1px solid #EDEDED;
-background: #FFF;
+    border: 1px solid #EDEDED;
+    background: #FFF;
 }
-.approval{
-   
-        width: 5px;    
-        background: #FFB406;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
+
+.approval {
+    width: 5px;
+    background: #FFB406;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.submitted-approval h5 {
+    color: #707070;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/*  */
+
+.submitted-approval h6 {
+    color: #FFB406;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.approval-time h5 {
+    color: #000;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* approved timing style */
+
+.approval-time h6 {
+    color: #7E7E7E;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/* approved style */
+.approved-sucess h6{
+    color: #00B71E;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.approved-sucess-style{
  
+width: 5px;
+background: #00B71E;;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+
+}
+/* rejected style */
+.rejected h6{
+    color: #EA1C2D;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.rejected-style{
+    width: 5px;
+background: #EA1C2D; 
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+
 }
