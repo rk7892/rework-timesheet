@@ -25,39 +25,15 @@ html {
 .profile-arrow-mail {
     color: #667085;
 }
+/* main section */
 
-/* main -- content -- */
+
+
 .my-client-text {
     color: #000;
     font-family: Inter;
     font-size: 28px;
     font-weight: 600;
-}
-
-#table-head>th {
-    background-color: #F4F4F4;
-    border-bottom: none;
-    color: #7B7B7B;
-    font-family: Mulish;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-}
-
-
-tr {
-    height: 40px;
-
-}
-
-td {
-    color: #000;
-    font-family: Mulish;
-    font-size: 14px;
-    font-weight: 600;
-
-
-
 }
 
 /* search box */
@@ -95,8 +71,23 @@ td {
     color: #666666;
 }
 
-/* + button */
-.create-button {
-    height: 48px;
-    width: 48px;
+/* report -- form  */
+.form-control {
+   height: 44px;
 }
+
+.report-form input::placeholder {
+    color: #87888C;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.report-form > input[type="text"] {
+    outline: none;
+    color: #87888C;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+}
+

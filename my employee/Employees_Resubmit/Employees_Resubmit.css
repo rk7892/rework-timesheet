@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.header {
+    background: #FFF;
+    box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
+}
+
+.profile-arrow>svg {
+    margin-top: 5px;
+}
+
+.dropdown-menu {
+    width: 200px;
+}
+
+.profile-arrow-mail {
+    color: #667085;
+}
+/* main section */
+
+.project-heading h1 {
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.project-heading p a {
+    text-decoration: none;
+    color: #1C1B1F;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+
+.project-heading p span {
+    color: #1C1B1F;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+/* edit -- form  */
+.form-label-1 {
+    color: #20102B;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+
+.edit-form input::placeholder {
+    color: #87888C;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.edit-form input[type="text"] {
+    outline: none;
+    color: #87888C;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-control {
+    width: 273px;
+    height: 44px;
+}
+
+
+/* upload logo button  */
+.Uploadlogo {
+    width: 273px;
+    height: 44px;
+    border: 1px solid #D0D5DD;
+    border-radius: 4px;
+}
+
+.Uploadlogo-text {
+    color: #999;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.image-upload>input {
+    display: none;
+}
+
+.image-upload img {
+    width: 18px;
+    height: 16px;
+    cursor: pointer;
+}
