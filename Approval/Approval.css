@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter';
+}
+
+.container-fluid {
+    font-family: 'Inter';
+    font-weight: 400;
+}
+
+.form-search input {
+    display: block;
+    font-family: 'Mulish';
+    width: 180px;
+    height: 38px;
+    border: 1px solid #D0D5DD;
+    background-color: #ffffff;
+    font-size: 12px;
+    color: #87888c;
+
+}
+
+.form-search button {
+    color: #666666;
+    position: absolute;
+    right: 10px;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.ap-main1 {
+    margin-top: 35px;
+}
+
+.ap-main {
+    width: 165px;
+    height: 40px;
+    border: 1px solid #c0bfbf;
+    border-radius: 3px;
+    margin-left: 8px;
+}
+
+.ap-main h6 {
+    font-size: 11px;
+    margin-top: 12px;
+    font-family: "Inter";
+
+}
+
+.ap-main .rou {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0EB85B;
+    margin: 13px 6px;
+}
+
+.ap-main #r1 {
+    background-color: #FC003C;
+}
+
+.ap-main #r2 {
+    background-color: #FFB406;
+
+}
+
+.ap-main #r3 {
+    background-color: #004CFF;
+
+}
+
+.head .ch-left {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    text-align: center;
+    margin-top: 12px;
+
+}
+
+.head .ch-right {
+    width: 62px;
+    height: 25px;
+    border-radius: 4px;
+    border: 1px solid #D9D9D9;
+    font-size: 12px;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.ap-row {
+    margin-left: 10px;
+}
+
+.table thead th {
+    font-size: 13px;
+    font-weight: 600;
+    color: #707070;
+    background-color: #ebebeb;
+    width: 1170px;
+    height: 55px;
+    border: none;
+
+}
+
+.table tbody td {
+    font-size: 13px;
+    font-weight: 500;
+    border-color: #F3F3F3;
+
+}
+
+.table tbody .ap-2l {
+    width: 1170px;
+    height: 80px;
+    background-color: #FCFCFD;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.table tbody .ap-2l p {
+    color: #707070;
+}
+
+.table tbody .ap-3l {
+    width: 1170px;
+    height: 74px;
+    font-size: 12px;
+
+}
+.table tbody .ap-3l img{
+    padding-top: 15px;
+}
+
+.table tbody .ap-4l {
+    width: 1170px;
+    height: 80px;
+    font-size: 11px;
+    background-color: #FCFCFD;
+}
+.table tbody .ap-4l p {
+   font-size: 11px;
+   font-weight: 500;
+    color: #707070;
+}
+.table tr {
+    border-color: #f3f3f3;
+    
+}
