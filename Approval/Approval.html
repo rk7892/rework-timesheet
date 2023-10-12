@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Approval</title>
+    <link rel="stylesheet" href="Approval.css">
+    <!--icon link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--boot link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- bootstarp java script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!--fontlink-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class=" col-sm-2 col-md-2 col-lg-2 d-flex shadow bg-body-white"
+                style=" font-size: 13px; height: 1024px;">
+                <!--sidebar-->
+                <div class="sidebar">
+                    <img src="images/ohoh.jpeg" class="image-fluid mt-3" style="width: 170px;">
+                    <ul class="nav nav-navbar flex-column">
+                        <li class="nav-item"><a href="/rework-timesheet/dashboard/Dashboard.html"
+                                class="nav-link text-dark mt-4">
+                                <i class="bi bi-grid fs-6 px-2"></i>
+                                <span class="d-none d-sm-inline">Dashboard</span></a></li>
+
+                        <li class="nav-item my-1"><a href="/rework-timesheet/My Clients/client-list.html"
+                                class="nav-link text-dark">
+                                <i class="bi bi-people fs-6 px-2"></i>
+                                <span class="d-none d-sm-inline">My clients</span></a></li>
+
+                        <li class="nav-item my-1"><a href="/rework-timesheet/My Projects/current Project.html"
+                                class="nav-link text-dark">
+                                <i class="bi bi-card-list fs-6 px-2"></i>
+                                <span class="d-none d-sm-inline">My Projects</span></a></li>
+
+                        <li class="nav-item my-1"><a href="My Employee" class="nav-link text-dark">
+                                <i class="bi bi-person fs-6 px-2"></i>
+                                <span class="d-none d-sm-inline">My Employees</span></a></li>
+
+                        <li class="nav-item my-1"><a href="My Timesheet" class="nav-link text-dark">
+                                <i class="bi bi-file-earmark-text fs-6 px-2"></i>
+                                <span class="d-none d-sm-inline">My Timesheet</span></a></li>
+
+                        <li class="nav-item my-1 rounded" style="background-color: #004cff;">
+                            <a href="Approval" class="nav-link text-white">
+                                <i class="bi bi-file-text fs-6 px-2"></i>
+                                <span class="d-none d-sm-inline">Approval</span></a>
+                        </li>
+
+                        <li class="nav-item my-1"><a href="Reports" class="nav-link text-dark">
+                                <i class="bi bi-file-earmark-check fs-6 px-2"></i>
+                                <span class="d-none d-sm-inline">Reports</span></a></li>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--topnav-->
+
+            <div class="col-sm-10 col-md-10 col-lg-10 bg-white shadow-lg bg-body-white" style="height: 50px;">
+                <div class="navbar">
+                    <i class="bi-list fs-4 mb-3 mx-3"></i>
+                    <i class="bi-search me-auto  mb-3 mx-4 fs-6"></i>
+                    <i class="bi-bell fs-5 mb-3 "></i>
+                    <p class="fs-6 mx-3">Tushar B</p>
+                    <img src="images/buildimg.jpeg" class="mb-3" style="width: 30px;">
+
+                    <div class="btn-group">
+                        <button type="button" class="btn dropdown-toggle mb-3" data-bs-toggle="dropdown"
+                            aria-expanded="false"></button>
+                        <ul class="dropdown-menu" style="font-family: 'Mulish'; font-size: 12px; margin-left: -120px;">
+                            <li><a href="#" class="dropdown-item"> Tushar B</a></li>
+                            <li><a href="#" class="dropdown-item"> tushar@buildint.com</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a href="#" class="dropdown-item">Settings</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a href="#" class="dropdown-item">Help</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a href="#" class="dropdown-item">Log out</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--topnav end-->
+                <!--main-->
+                <div class="main d-flex">
+                    <h3 class="mt-1" style="margin-left: 10px;font-weight: 300;font-size: 26px;  ">Approval</h3>
+                    <form class="form-search ms-auto d-flex">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <button class="btn"><i class="bi bi-search" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+
+                <div class="ap-main1 d-flex">
+                    <div class="ap-main d-flex">
+                        <div class="rou"></div>
+                        <h6>17 jul 2023-23 jul 2023</h6>
+                    </div>
+                    <div class="ap-main d-flex">
+                        <div id="r1" class="rou"></div>
+                        <h6>24 jul 2023-30 jul 2023</h6>
+                    </div>
+                    <div class="ap-main d-flex">
+                        <div id="r2" class="rou"></div>
+                        <h6> 01 Aug 2023-07 Aug 2023</h6>
+                    </div>
+                    <div class="ap-main d-flex">
+                        <div id="r3" class="rou"></div>
+                        <h6>08 Aug 2023-09 Aug2023</h6>
+                    </div>
+
+                    <div class="head d-flex ms-auto">
+                        <span class="ch-left mx-1" style="color: #c9c8c8;">
+                            <i class="bi bi-chevron-left"></i></span>
+                        <span class="ch-right p-1 px-3 mx-1">July</span>
+                        <span class="ch-left mx-1">
+                            <i class="bi bi-chevron-right"></i></span>
+                    </div>
+                </div>
+
+
+                <!--table start-->
+                <div class="ap-row mt-3">
+                    <table class="table table-bordered">
+                        <thead class="text-center">
+                            <tr>
+
+                                <th class="text-dark w-25 pb-3">Employee Profile </th>
+                                <th class="pb-3">Mon,Jul 17 </th>
+                                <th class="pb-3">Tue,Jul 17 </th>
+                                <th class="pb-3">Wed,Jul 17 </th>
+                                <th class="pb-3">Thu,Jul 17 </th>
+                                <th class="pb-3">Fri,Jul 17</th>
+                                <th class="pb-3">Sat,Jul 17</th>
+                                <th class="pb-3">Sun,Jul 17</th>
+                                <th class="pb-3" style="padding:0px 40px;">Action</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="ap-2l"><i class="bi-chevron-up mx-1" style="font-weight: 500;"></i>
+                                    <img src="images/imgc.jpeg" class="img-fluid mx-2 mt-2" style="width: 35px;">
+                                    <span class="fs-6 pt-5"> ARUN R</span>
+                                    <p style="color: #A5AEB4;margin-left: 75px; font-size: 14px; margin-top: -10px;">
+                                        Senior Design</p>
+                                </td>
+                                <td class="ap-2l pt-4"><i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h
+                                    05m<br>
+                                    <p class="px-2">1st shift</p>
+                                </td>
+                                <td class="ap-2l pt-4"><i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>8h
+                                    21m
+                                    <br>
+                                    <p class="px-2">1st shift</p>
+                                </td>
+                                <td class="ap-2l pt-4"><i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h
+                                    43m
+                                    <br>
+                                    <p class="px-2">2st shift</p>
+                                </td>
+                                <td class="ap-2l pt-4"><i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h
+                                    20m
+                                    <br>
+                                    <p class="px-2">3st shift</p>
+                                </td>
+                                <td class="ap-2l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>7h
+                                    38m
+                                    <br>
+                                    <p class="px-1">1st shift</p>
+                                </td>
+                                <td class="ap-2l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>7h
+                                    05m</td>
+                                <td class="ap-2l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>7h
+                                    05m</td>
+                                <td class="ap-2l pt-4">
+                                    <span class="px-2 pt-1 pb-1" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                                        style="color: #666666;border:1px solid #666666; border-radius: 4px; ">Reject</span>
+
+
+                                    <span class="p-1" data-bs-toggle="modal" data-bs-target="#staticBackdrop1"
+                                        style="background-color: #004CFF; color: white;border-radius: 4px; ">
+                                        Approve</span>
+
+                                    <!--box-btn-->
+                                    <div class="modal fade" id="staticBackdrop" aria-labelledby="staticBackdroplabel"
+                                        aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false"
+                                        style="font-family: 'Mulish';">
+
+                                        <div class="modal-dialog modal-dialog-centered">
+
+                                            <div class="modal-content" style="height: 220px; width: 800px;">
+
+                                                <div class=" d-flex flex-column">
+                                                    <div class="mt-3 mx-3"
+                                                        style="font-size: 17px; margin-right: 300px;">Reason for
+                                                        Rejected</div>
+                                                    <div class="modal-body border">
+                                                        <h5 style=" font-size: 13px; padding-bottom:10px;"
+                                                            id="exampleModalLabel">Lorem Ipsum is simply dummy text of
+                                                            the printing and typesetting industry. Lorem Ipsum
+                                                            has been the industry's standard dummy text ever since the
+                                                            1500s, when an unknown
+                                                            printer took a galley of type and scrambled it to make a
+                                                            type specimen book</h5>
+
+                                                    </div>
+                                                    <div class="modal-footer ms-auto">
+                                                        <a href="Approval.html"> <button class=" mx-2"
+                                                                style="color: #707070; border: 1px solid #707070;border-radius: 4px;padding: 4px 14px; ">Cancel</button></a>
+                                                        <a href="Approval.html"><button class=" text-white"
+                                                                style="padding: 4px 14px; background-color: #0079FF;border: none;  border-radius: 4px;">Reject</button></a>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--box btn-1-->
+                                    <div class="modal fade" id="staticBackdrop1" tabindex="-1"
+                                        aria-labelledby="staticBackdroplabel1" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered">
+
+                                            <div class="modal-content" style="height: 150px; width: 400px;">
+
+                                                <div class="modal-body d-flex flex-column text-center">
+                                                    <div class="mb-2"><i class="bi bi-octagon-fill fs-5"
+                                                            aria-hidden="true" style="color: #05AC5C;"></i></div>
+
+                                                    <h3 class="fs-5">Approved Successfully</h3>
+                                                </div>
+
+                                                <div class="text-center mb-2">
+                                                    <a href="Approval.html"><button type="button"
+                                                            class="btn btn-primary"
+                                                            data-bs-dismiss="modal">ok</button></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </td>
+                            </tr>
+                            <tr>
+
+                                <td class="ap-3l"><img src="images/R.jpeg" class="img-fluid " style="width: 40px;">
+                                    <span class="mx-1 fs-6">SMRT</span>
+                                    <br>
+                                    <p style="font-size: 14px; color: #A5AEB4;margin-left: 45px;margin-top: -20px;">
+                                        Design-Vendor
+                                        Management</p>
+                                </td>
+                                <td class="ap-3l pt-5" style="padding-left: 20px;">1h 24m</td>
+                                <td class="ap-3l pt-5" style="padding-left: 20px;">2h 34m</td>
+                                <td class="ap-3l pt-5" style="padding-left: 50px;">11m</td>
+                                <td class="ap-3l pt-5" style="padding-left: 20px;">3h 32m</td>
+                                <td class="ap-3l pt-5" style="padding-left: 15px;">3h 22m</td>
+                                <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
+                                <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
+                                <td class="ap-3l pt-5" style="padding-left: 40px;">10h 15m</td>
+                            </tr>
+                            <tr>
+
+                                <td class="ap-3l"><img src="images/R1.jpeg" class="img-fluid" style="width: 40px;">
+                                    <span class="fs-6 mx-1">Hitachi</span>
+                                    <br>
+                                    <p style="font-size: 14px; color: #A5AEB4;margin-left: 45px;margin-top: -20px; ">
+                                        Design-Hitachi Quest
+                                        App</p>
+                                </td>
+                                <td class="ap-3l pt-5" style="padding-left: 50px;">26m</td>
+                                <td class="ap-3l pt-5" style="padding-left: 50px;">43m</td>
+                                <td class="ap-3l pt-5" style="padding-left: 20px;">3h 32m</td>
+                                <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
+                                <td class="ap-3l pt-5" style="padding-left: 15px;">2h 04m</td>
+                                <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
+                                <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
+                                <td class="ap-3l pt-5" style="padding-left: 40px;">7h 15m</td>
+                            </tr>
+                            <tr>
+
+                                <td class="ap-3l"><img src="images/R.jpeg" class="img-fluid" style="width: 40px;">
+                                    <span class="mx-1 fs-6">BuildINT</span>
+                                    <br>
+                                    <p style="font-size: 14px; color: #A5AEB4;margin-left: 45px; margin-top: -20px;">
+                                        Design-Time Sheet</p>
+                                </td>
+                                <td class="ap-3l pt-5" style="padding-left: 20px;">5h 45m</td>
+                                <td class="ap-3l pt-5" style="padding-left: 20px;">5h 30m</td>
+                                <td class="ap-3l pt-5" style="padding-left: 20px;">4h 39m</td>
+                                <td class="ap-3l pt-5" style="padding-left: 50px;">8m</td>
+                                <td class="ap-3l pt-5" style="padding-left: 15px;">2h 40m</td>
+                                <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
+                                <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
+                                <td class="ap-3l pt-5" style="padding-left: 40px;">18h 24m</td>
+                            </tr>
+
+                            <tr>
+
+                                <td class="ap-4l"><i class="bi-chevron-down mx-1" style="font-weight: 500;"></i>
+                                    <img src="images/imgc1.jpeg" class="img-fluid" style="width: 40px;">
+                                    <span class="fs-6 mx-2"> Karthik P</span>
+                                    <br>
+                                    <p style="font-size: 14px; color: #A5AEB4;margin-left: 75px;margin-top: -10px;">
+                                        Design</p>
+                                </td>
+                                <td class="ap-4l pt-4">
+                                    <i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h 05m
+                                    <br>
+                                    <p class="px-2"> 1st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>8h
+                                    21m<br>
+                                    <p class="px-2"> 1st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h
+                                    43m<br>
+                                    <p class="px-2"> 2st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h
+                                    20m<br>
+                                    <p class="px-2">3rd shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>7h
+                                    38m<br>
+                                    <p class="px-1">1st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill " style="color: #D9D9D9;"></i>
+                                    7h 05m</td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill " style="color: #D9D9D9;"></i>
+                                    7h 05m</td>
+                                <td class="ap-4l pt-4"><span class="px-2 pt-1 pb-1"
+                                        style="color: #666666;border:1px solid #666666; border-radius: 4px; ">Reject</span>
+                                    <span class="p-1"
+                                        style="background-color: #004CFF; color: white;border-radius: 4px; ">
+                                        Approve</span>
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td class="ap-4l"><i class="bi-chevron-down mx-1" style="font-weight: 500;"></i>
+                                    <img src="images/imgc2.jpeg" class="img-fluid" style="width: 40px;">
+                                    <span class="fs-6 mx-2">Udhaya K</span>
+                                    <br>
+                                    <p style="font-size: 14px; color: #A5AEB4;margin-left: 75px; margin-top: -10px;">
+                                        Design</p>
+                                </td>
+                                <td class="ap-4l pt-4">
+                                    <i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h 05m
+                                    <br>
+                                    <p class="px-2"> 1st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>8h
+                                    21m<br>
+                                    <p class="px-2"> 1st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>7h
+                                    43m<br>
+                                    <p class="px-2"> 2st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h
+                                    20m<br>
+                                    <p class="px-2">3rd shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h
+                                    38m<br>
+                                    <p class="px-1">1st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>
+                                    7h 05m</td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>
+                                    7h 05m</td>
+                                <td class="ap-4l pt-4"><span class="px-2 pt-1 pb-1"
+                                        style="color: #666666;border:1px solid #666666; border-radius: 4px; ">Reject</span>
+                                    <span class="p-1"
+                                        style="background-color: #004CFF; color: white;border-radius: 4px; ">
+                                        Approve</span>
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td class="ap-4l"><i class="bi-chevron-down mx-1" style="font-weight: 500;"></i>
+                                    <img src="images/imgc3.jpeg" class="img-fluid" style="width: 40px;">
+                                    <span class="mx-2 fs-6"> Santhosh P</span>
+                                    <br>
+                                    <p style="font-size: 14px; color: #A5AEB4;margin-left: 75px;margin-top: -10px;">
+                                        Developer</p>
+                                </td>
+                                <td class="ap-4l pt-4">
+                                    <i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h 05m
+                                    <br>
+                                    <p class="px-2">1st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>8h
+                                    21m<br>
+                                    <p class="px-2"> 1st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h
+                                    43m<br>
+                                    <p class="px-2"> 2st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h
+                                    20m<br>
+                                    <p class="px-2">3rd shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>7h
+                                    38m<br>
+                                    <p class="px-1">1st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi-check-circle-fill" style="color: #D9D9D9;"></i> 7h
+                                    05m</td>
+                                <td class="ap-4l pt-4"><i class="bi-check-circle-fill" style="color: #D9D9D9;"></i> 7h
+                                    05m</td>
+                                <td class="ap-4l pt-4"><span class="px-2 pt-1 pb-1"
+                                        style="color: #666666;border:1px solid #666666; border-radius: 4px; ">Reject</span>
+                                    <span class="p-1"
+                                        style="background-color: #004CFF; color: white;border-radius: 4px; ">
+                                        Approve</span>
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td class="ap-4l"><i class="bi-chevron-down mx-1" style="font-weight: 500;"></i>
+                                    <img src="images/imgc4.jpeg" class="img-fluid" style="width: 40px;">
+                                    <span class="mx-2 fs-6"> Gopi E</span>
+                                    <br>
+                                    <p style="font-size: 14px; color: #A5AEB4;margin-left: 75px;margin-top: -10px;">
+                                        Developer</p>
+                                </td>
+                                <td class="ap-4l pt-4">
+                                    <i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h 05m
+                                    <br>
+                                    <p class="px-2"> 1st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>8h
+                                    21m<br>
+                                    <p class="px-2"> 1st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h
+                                    43m<br>
+                                    <p class="px-2"> 2st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>7h
+                                    20m<br>
+                                    <p class="px-2">3rd shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #0eb85b;"></i>7h
+                                    38m<br>
+                                    <p class="px-1">1st shift</p>
+                                </td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>
+                                    7h 05m</td>
+                                <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>
+                                    7h 05m</td>
+                                <td class="ap-4l pt-4"><span class="px-2 pt-1 pb-1"
+                                        style="color: #666666;border:1px solid #666666; border-radius: 4px; ">Reject</span>
+                                    <span class="p-1"
+                                        style="background-color: #004CFF; color: white;border-radius: 4px; ">
+                                        Approve</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
