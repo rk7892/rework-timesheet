@@ -31,7 +31,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-2 p-0 vh-100 pt-3 shadow bg-body collapse show" id="collapseOne">
+            <div class="col-2 p-0 vh-100 sidebar pt-3 shadow bg-body collapse show" id="collapseOne">
                 <nav class="navbar">
                     <div class="col-12 mb-5 d-flex justify-content-center">
                         <a href="Dashboard.html" class="navbar-brand">
@@ -54,7 +54,7 @@
                                                 d="M9.08223 8.14646H14.1393C14.3765 8.14646 14.5918 8.24441 14.7474 8.40254C14.9032 8.56043 15 8.77886 15 9.01947V14.127C15 14.3673 14.9032 14.586 14.7474 14.7437C14.5918 14.9018 14.3765 15 14.1393 15H9.08223C8.84517 15 8.62983 14.9018 8.47407 14.7437C8.31843 14.586 8.22162 14.3673 8.22162 14.127V9.01959C8.22162 8.77899 8.31843 8.56055 8.47407 8.40267C8.62983 8.24441 8.84517 8.14646 9.08223 8.14646ZM0.860847 0H5.91777C6.15484 0 6.37029 0.098074 6.52605 0.256206C6.68182 0.414338 6.7785 0.632652 6.7785 0.873255V5.98066C6.7785 6.22126 6.68182 6.4397 6.52605 6.59758C6.37029 6.75559 6.15484 6.85379 5.91777 6.85379H0.860847C0.624761 6.85379 0.41016 6.75559 0.254275 6.59758L0.25342 6.59684L0.252566 6.59758C0.0966805 6.43957 0 6.22114 0 5.98053V0.873255C0 0.632652 0.0966805 0.414214 0.252566 0.256206C0.263918 0.24469 0.275881 0.233793 0.287966 0.223762C0.440311 0.0848241 0.641485 0 0.860847 0ZM5.87541 0.915977H0.902961V5.93769H5.87529L5.87541 0.915977ZM9.08223 0H14.1393C14.3765 0 14.5918 0.098074 14.7474 0.256206C14.9032 0.414214 15 0.632652 15 0.873255V5.98066C15 6.22126 14.9032 6.4397 14.7474 6.59758C14.5918 6.75559 14.3765 6.85379 14.1393 6.85379H9.08223C8.84517 6.85379 8.62983 6.75559 8.47407 6.59758C8.31843 6.4397 8.22162 6.22114 8.22162 5.98066V0.873255C8.22162 0.632652 8.31843 0.414214 8.47407 0.256206C8.62983 0.098074 8.84517 0 9.08223 0ZM14.097 0.915977H9.12459V5.93769H14.097V0.915977ZM0.860847 8.14646H5.91777C6.15484 8.14646 6.37029 8.24441 6.52605 8.40254C6.68182 8.56043 6.7785 8.77886 6.7785 9.01947V14.127C6.7785 14.3673 6.68182 14.586 6.52605 14.7437C6.37029 14.9018 6.15484 15 5.91777 15H0.860847C0.624761 15 0.41016 14.9018 0.254275 14.7437L0.25342 14.7429L0.252566 14.7437C0.0966805 14.5862 0 14.3675 0 14.1271V9.01959C0 8.77899 0.0966805 8.56055 0.252566 8.40267C0.263918 8.39102 0.275881 8.38013 0.288088 8.36997C0.440311 8.23116 0.641485 8.14646 0.860847 8.14646ZM5.87541 9.06244H0.902961V14.0841H5.87529L5.87541 9.06244ZM14.097 9.06244H9.12459V14.0841H14.097V9.06244Z"
                                                 fill=" #4A4A4A" />
                                         </svg>
-                                        <span class="ms-4" style="color:  #4A4A4A;">Dashboard</span>
+                                        <span class="ps-3" style="color:  #4A4A4A;">Dashboard</span>
                                     </a>
                                 </li>
                                 <!-- My clients -->
@@ -165,18 +165,10 @@
                     <!-- search icon -->
                     <div class="col-sm-2">
                         <div class="input-group ms-1 mt-1">
-                            <input class="form-control border-end-0 border" type="search" value="search" id="">
-                            <span class="input-group-append">
-                                <button
-                                    class="btn btn-outline-secondary bg-white border-start-0 border-bottom-0 border ms-n5"
-                                    type="button">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                            </span>
-                            <!-- <input type="text" class="form-control" placeholder="Search" aria-label="Search">
-                            <button class="btn" type="button">
-                                <i class="fas fa-search Search-icon"></i>
-                            </button> -->
+                            <div class="d-flex search-container justify-content-end align-items-center">
+                                <input id="searchbar" class="ps-3" type="search" name="search" placeholder="Search">
+                                <button class="material-symbols-outlined search-icon border-0 bg-body  me-3">search</button>
+                            </div>  
                         </div>
                     </div>
                     <div class="col-sm-5"></div>
