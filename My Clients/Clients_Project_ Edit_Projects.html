@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BuildINT_Timesheet</title>
-    <link rel="stylesheet" href="/rework-timesheet/My Clients/Client_Details_Current_Project.css">
+    <title>Edit_Projects</title>
+    <link rel="stylesheet" href="/rework-timesheet/My Clients/Clients_Project_Edit_Projects.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f20c552953.js" crossorigin="anonymous"></script>
@@ -23,8 +22,8 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <!-- Left_menu -->
-            <div class="col-2 p-0 pt-3 shadow bg-body collapse show vh-100 sidebar" id="collapseOne">
+            <!-- Left_menu -- sidebar-->
+            <div class="col-2 p-0 pt-3 vh-100 shadow bg-body collapse show  sidebar" id="collapseOne">
                 <nav class="navbar">
                     <div class="col-12 mb-5 d-flex justify-content-center">
                         <a href="Dashboard.html" class="navbar-brand">
@@ -39,7 +38,8 @@
                             <ul class="navbar-nav nav-pills ">
                                 <!-- Dashboard -->
                                 <li class="nav-item d-flex mb-4">
-                                    <a href="/rework-timesheet/dashboard/Dashboard.html" class="nav-link w-100 d-flex ps-4 align-items-center">
+                                    <a href="/rework-timesheet/dashboard/Dashboard.html"
+                                        class="nav-link w-100 d-flex ps-4 align-items-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 15 15" fill="none">
                                             <path
@@ -61,8 +61,9 @@
                                     </a>
                                 </li>
                                 <!-- My project -->
-                                <li class="nav-item d-flex mb-4">
-                                    <a href="/rework-timesheet/My Project/current project/current project.html" class="nav-link w-100 d-flex ps-4 align-items-center">
+                                <li class="nav-item d-flex mb-4 ">
+                                    <a href="/rework-timesheet/My Project/current project/current project.html"
+                                        class="nav-link w-100 d-flex ps-4 align-items-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 14 13" fill="none">
                                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -79,7 +80,8 @@
                                 </li>
                                 <!-- My employees -->
                                 <li class="nav-item d-flex mb-4">
-                                    <a href="/rework-timesheet/my employee/employee-list.html" class="nav-link w-100 d-flex ps-4 align-items-center">
+                                    <a href="/rework-timesheet/my employee/employee-list.html"
+                                        class="nav-link w-100 d-flex ps-4 align-items-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 12 15" fill="none">
                                             <path
@@ -90,7 +92,8 @@
                                 </li>
                                 <!-- My timesheet -->
                                 <li class="nav-item d-flex mb-4">
-                                    <a href="/rework-timesheet/My Timesheet/timesheet.html" class="nav-link w-100 d-flex ps-4 align-items-center">
+                                    <a href="/rework-timesheet/My Timesheet/timesheet.html"
+                                        class="nav-link w-100 d-flex ps-4 align-items-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24"
                                             viewBox="0 0 17 19" fill="none">
                                             <mask id="path-1-outside-1_2730_2324" maskUnits="userSpaceOnUse" x="0"
@@ -111,7 +114,8 @@
                                 </li>
                                 <!-- Approval -->
                                 <li class="nav-item d-flex mb-4">
-                                    <a href="/rework-timesheet/Approval/Approval.html" class="nav-link w-100 d-flex ps-4 align-items-center">
+                                    <a href="/rework-timesheet/Approval/Approval.html"
+                                        class="nav-link w-100 d-flex ps-4 align-items-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24"
                                             viewBox="0 0 17 19" fill="none">
                                             <path
@@ -121,8 +125,9 @@
                                     </a>
                                 </li>
                                 <!-- Reports -->
-                                <li class="nav-item d-flex ">
-                                    <a href="/rework-timesheet/Reports/Reports.html" class="nav-link w-100 d-flex ps-4 align-items-center">
+                                <li class="nav-item d-flex mb-4">
+                                    <a href="/rework-timesheet/Reports/Reports.html"
+                                        class="nav-link w-100 d-flex ps-4 align-items-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24"
                                             viewBox="0 0 14 19" fill="none">
                                             <path
@@ -157,8 +162,9 @@
                         <div class="input-group ms-1 mt-1">
                             <div class="d-flex search-container justify-content-end align-items-center">
                                 <input id="searchbar" class="ps-3" type="search" name="search" placeholder="Search">
-                                <button class="material-symbols-outlined search-icon border-0 bg-body  me-3">search</button>
-                            </div>  
+                                <button
+                                    class="material-symbols-outlined search-icon border-0 bg-body  me-3">search</button>
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-5"></div>
@@ -194,224 +200,348 @@
                                     <h6 class="pt-1 ps-3 profile-arrow-mail fw-normal">tushar@builint.com</h6>
                                 </li>
                                 <hr>
-                                <li><a class="dropdown-item" href="#">Settings</a></li>
+                                <li><a class="dropdown-item underline-none" href="#">Settings</a></li>
                                 <hr>
                                 <li><a class="dropdown-item" href="#">Help</a></li>
                                 <hr>
-                                <li><a class="dropdown-item" href="/rework-timesheet/loginpage/loginpage.html">Log out</a></li>
+                                <li><a class="dropdown-item" href="/rework-timesheet/loginpage/loginpage.html">Log
+                                        out</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-
-                <!-- main -- section -->
+                <!--  main container section  -->
                 <div class="container">
-
-                    <div class="col-12 d-flex mt-3 justify-content-between align-items-center">
-                        <div>
-                            <h2 class="Client-Detail-text pt-2">Client Detail</h2>
-                            <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a
-                                            href="/rework-timesheet/My Clients/Clients_List.html">Client List</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page"><span
-                                            class="Client-detail-breadcrumb">Client Detail</span></li>
-                                </ol>
-                            </nav>
-                        </div>
-
-                        <!-- edit button -->
-                        <div class="d-flex search-container justify-content-end">
-                            <a class="btn btn-outline-secondary align-items-center d-flex"
-                                href="/rework-timesheet/My Clients/Client_Details_Resubmit.html" role="button">
-                                <span class="material-symbols-outlined pe-2">edit</span>
-                                Edit</a>
-                        </div>
+                    <div class="project-heading mt-4 ">
+                        <h2>Edit Project</h2>
+                        <!-- breadcumb -->
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item "><a
+                                        href="/rework-timesheet/My Project/current project/current project.html"
+                                        class="text-decoration-none active-link">My Projects </a></li>
+                                <li class="breadcrumb-item fw-bold" aria-current="page">Create Project</li>
+                            </ol>
+                        </nav>
                     </div>
+                    <!-- forms -->
+                    <form class="col-12 d-flex" id="form2">
+                        <div class="col-md-3">
+                            <label for="validationDefault04" class="form-label">Select Client</label>
+                            <select class="form-select" id="validationDefault04" required>
+                                <option>Select Client</option>
+                                <option>SMRT</option>
+                                <option>Hitachi</option>
+                                <option>TATA</option>
+                                <option>BuildINT</option>
+                            </select>
 
-                    <!-- client -- details -- section -->
-
-                    <div class="col-12  d-flex justify-content-between">
-                        <div class="col-12 client-details-card d-flex pt-2 ps-3">
-                            <div class="col-2">
-                                <img src="/rework-timesheet/My Clients/images/client-company-logo.png" class="img-fluid"
-                                    alt="client-company-logo">
-                            </div>
-                            <div class="col-10 d-flex justify-content-between pt-2 ms-3">
-                                <div class="col-7 d-flex justify-content-between">
-                                    <div class="col">
-                                        <h5 class="client-detail-title">Client Name</h5>
-                                        <h5 class="client-detail-data">SMRT</h5>
-                                        <h5 class="client-detail-title mt-4">Client ID</h5>
-                                        <h5 class="client-detail-data">C0001</h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="client-detail-title">Email ID</h5>
-                                        <h5 class="client-detail-data">Support@smrt.com</h5>
-                                        <h5 class="client-detail-title mt-4">Location</h5>
-                                        <h5 class="client-detail-data">Singapore</h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="client-detail-title">Onboarding Date</h5>
-                                        <h5 class="client-detail-data">00/00/2023</h5>
-                                        <h5 class="client-detail-title mt-4">Account Manager</h5>
-                                        <h5 class="client-detail-data">Tushar B</h5>
-                                    </div>
-                                </div>
-                                <div class="col-5">
-                                    <div class="col d-flex">
-                                        <div class="col-6">
-                                            <h5 class="client-detail-title">Contact person</h5>
-                                            <h5 class="client-detail-data">Vino</h5>
-                                        </div>
-                                        <div class="col-6">
-                                            <h5 class="client-detail-title">Phone Number</h5>
-                                            <h5 class="client-detail-data">93835 23466</h5>
-                                        </div>
-                                    </div>
-                                    <div class="mt-3">
-                                        <h5 class="client-detail-title">Address</h5>
-                                        <h5 class="client-detail-data">72H Poorur ,Chennai ,600028 .</h5>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
+                        <div class="col-md-3">
+                            <label for="validationDefault04" class="form-label">Project Name</label>
+                            <input type="text" class="form-control" placeholder="Set Project Name "
+                                id="validationCustom01" required>
 
-                    </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationDefault04" class="form-label">State</label>
+                            <select class="form-select" id="validationDefault04" required>
+                                <option>Active</option>
+                                <option>Inactive</option>
+                                <option>Hold</option>
+                            </select>
 
-                    <div class="col-12 mt-3">
-                        <h2 class="Client-Reports-text pt-2">Client Reports</h2>
-                    </div>
-                </div>
-                <div class="col-12 ps-4">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item" style="border-bottom:1px solid #004CFF;
-                        background:rgba(0, 76, 255, 0.05);">
-                            <a class="nav-link" aria-current="page" href="#">Current Project</a>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationDefault04" class="form-label">Select Project Manager</label>
+                            <select class="form-select" id="validationDefault04" required>
+                                <option>Arun</option>
+                                <option>Raj Kumar</option>
+                                <option>Suprith Kumar</option>
+                                <option>Tushar B</option>
+                            </select>
+
+                        </div>
+                    </form>
+                    <!-- forms 2  -->
+                    <form class="col-12 d-flex  mt-4" id="form2">
+                        <div class="col-md-3">
+                            <label for="validationDefault04" class="form-label">Project Type</label>
+                            <select class="form-select" id="validationDefault04" required>
+                                <option>Billable</option>
+                                <option>Non Billable</option>
+                                <option>Admin</option>
+                                <option>Training</option>
+                                <option><a href="">+ Add New Project</a></option>
+
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationDefault04" class="form-label">Start Date</label>
+                            <input type="date" class="form-control" placeholder="Set Project Name "
+                                id="validationCustom01" required>
+
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationDefault04" class="form-label">End Date</label>
+                            <input type="date" class="form-control" placeholder="Set Project Name "
+                                id="validationCustom01" required>
+
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationDefault04" class="form-label">Total Hours</label>
+                            <input type="time" class="form-control" placeholder="Set Project Name "
+                                id="validationCustom01" required>
+                        </div>
+                    </form>
+                    <!-- nav links -->
+                    <ul class="nav  nav-tabs nav-underline  mt-4">
+                        <li class="nav-item active">
+                            <a class="nav-link   ps-3 pe-3" aria-current="page" href="#"
+                                style="border-bottom:2px solid #004CFF;">Create Task</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                                href="/rework-timesheet/My Clients/Client_Details_Completed_Projects.html"
-                                style="color: #344054;">Completed Projects</a>
-                        </li>
+                        <li class="nav-item disabled-link">
+                            <a class="nav-link ps-3  pe-3 "
+                                href="/rework-timesheet/My Project/create proj - assign task/assign task.html">Create
+                                Team</a>
                     </ul>
-                </div>
-                
-                <div class="col-12 mt-3 d-flex container">
-                    <div class="col-7 d-flex justify-content-between">
-                        <!-- current -- project1 -- card -- section -- start-->
-                        <a href="/rework-timesheet/My Clients/Clients_Project_ Details_Team.html" class="text-decoration-none">
-                            <div class="col-6">
-                                <div class="project-card">
-                                    <div class="d-flex justify-content-between align-items-center mt-2 ps-3 pe-3">
-                                        <h2 class="Project-1-text">Project 1</h2>
-                                        <span class="badge Billable-badge" style="color: #0EB85B;">Billable</span>
-                                    </div>
-                                    <div class="col-12 d-flex mt-3">
-                                        <div class="col-6 ps-3">
-                                            <h5 class="client-detail-title">Project name</h5>
-                                            <h5 class="client-detail-data">SMRT</h5>
-                                        </div>
-                                        <div class="col-6 ps-3">
-                                            <h5 class="client-detail-title">Project Manager</h5>
-                                            <h5 class="client-detail-data">Tushar</h5>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 d-flex mt-3">
-                                        <div class="col-6 ps-3">
-                                            <h5 class="client-detail-date">Start: July/18/23</h5>
-                                        </div>
-                                        <div class="col-6 ps-3">
-                                            <h5 class="client-detail-date">End: July/27/23</h5>
-                                        </div>
-                                    </div>
-    
-                                    <!-- progres bar for project 1 -->
-                                    <div class="progress ms-3 mt-3" style="height: 7px; width: 251px;">
-                                        <div class="progress-bar" role="progressbar"
-                                            style="width: 45%; border-radius: 50px;" aria-valuenow="45" aria-valuemin="0"
-                                            aria-valuemax="100"></div>
-                                    </div>
-    
-                                    <div class="col-12 d-flex ps-3 justify-content-between mt-3">
-    
-                                        <h5 class="client-detail-title">Process</h5>
-    
-    
-                                        <h5 class="client-detail-title pe-3">45%</h5>
-    
-                                    </div>
-    
-    
-    
-    
-                                </div>
-    
-    
+                    <!-- form section -->
+                    <form class="col-12 d-flex justify-content-between  mt-4" id="form2">
+                        <div class="col-md-2">
+                            <label for="validationDefault04" class="form-label label">Task</label>
+                            <input type="text" class="form-control" placeholder="UI/UX" id="validationCustom02"
+                                required>
+
+                        </div>
+                        <div class="col-md-2">
+                            <label for="validationDefault04" class="form-label label">No. Of Hours For This Task</label>
+                            <input type="text" class="form-control" placeholder="40 hrs " id="validationCustom02"
+                                required>
+
+                        </div>
+                        <div class="col-md-2">
+                            <label for="validationDefault04" class="form-label label">Start Date</label>
+                            <input type="date" class="form-control" placeholder="12-07-2023 " id="validationCustom02"
+                                required>
+
+                        </div>
+                        <div class="col-md-2">
+                            <label for="validationDefault04" class="form-label label">Completion date</label>
+                            <input type="date" class="form-control" placeholder="20-07-2023" id="validationCustom02"
+                                required>
+                        </div>
+                        <div class="col-md-2">
+                           
+                        </div>
+                        <div class="col-md-1 ">
+                            <div class="button d-flex justify-content-center align-items-center">
+                                <a class=" text-decoration-none" href="#" role="button">+ Add</a>
                             </div>
-                        </a>
-                       
-                        <!-- current -- project2 -- card -- section -- start-->
-                        <a href="" class="text-decoration-none">
-                            <div class="col-6">
-                                <div class="project-card">
-                                    <div class="d-flex justify-content-between align-items-center mt-2 ps-3 pe-3">
-                                        <h2 class="Project-1-text">Project 2</h2>
-                                        <span class="badge non-Billable-badge" style="color: #FFB406;">Non
-                                            Billable</span>
-                                    </div>
-                                    <div class="col-12 d-flex mt-3">
-                                        <div class="col-6 ps-3">
-                                            <h5 class="client-detail-title">Project name</h5>
-                                            <h5 class="client-detail-data">SMRT</h5>
-                                        </div>
-                                        <div class="col-6 ps-3">
-                                            <h5 class="client-detail-title">Project Manager</h5>
-                                            <h5 class="client-detail-data">Tushar</h5>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 d-flex mt-3">
-                                        <div class="col-6 ps-3">
-                                            <h5 class="client-detail-date">Start: July/29/23</h5>
-                                        </div>
-                                        <div class="col-6 ps-3">
-                                            <h5 class="client-detail-date">End: Aug/10/23</h5>
-                                        </div>
-                                    </div>
-    
-                                    <!-- progres bar for project 2 -->
-                                    <div class="progress ms-3 mt-3" style="height: 7px; width: 251px;">
-                                        <div class="progress-bar" role="progressbar"
-                                            style="width: 70%; border-radius: 50px;" aria-valuenow="70" aria-valuemin="0"
-                                            aria-valuemax="100"></div>
-                                    </div>
-    
-                                    <div class="col-12 d-flex ps-3 justify-content-between mt-3">
-    
-                                        <h5 class="client-detail-title">Process</h5>
-    
-    
-                                        <h5 class="client-detail-title pe-3">70%</h5>
-    
-                                    </div>
+                        </div>
+                    </form>
+                    <!-- banner section -->
+                    <div class="col-12 mt-5">
+                        <section class="banner  d-flex ">
+                            <div class="col-2 ps-3 mt-3 banner-section">
+                                <div>
+                                    <h6>Task</h6>
+                                </div>
+                                <div>
+                                    <p>UI/UX</p>
                                 </div>
                             </div>
-                        </a>
-                       
+                            <div class="col-2 ps-3 mt-3 banner-section">
+                                <div>
+                                    <h6>No. Of Hours For This Task</h6>
+                                </div>
+                                <div>
+                                    <p>40 hrs</p>
+                                </div>
+                            </div>
+                            <div class="col-2 ps-5 mt-3 banner-section">
+                                <div>
+                                    <h6>Start Date</h6>
+                                </div>
+                                <div>
+                                    <p>12-07-2023</p>
+                                </div>
+                            </div>
+                            <div class="col-2 ps-5 mt-3 banner-section">
+                                <div>
+                                    <h6>Completion Date</h6>
+                                </div>
+                                <div>
+                                    <p>12-07-2023</p>
+                                </div>
+                            </div>
+                            <!-- <div class="col-2 mt-3 ps-5 banner-section">
+                                <div>
+                                    <h6>Status</h6>
+                                </div>
+                                <div>
+                                    <p>On Going</p>
+                                </div>
+                            </div> -->
+                            <!-- <div class="col-2 mt-3 d-flex justify-content-end">
+                                <div>
+                                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#myModal">
+                                        <i class="fa fa-pencil " style="color: #707070;font-size: 20px;"></i>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn " data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">
+                                        <i class="fa fa-trash-o " style="color: #707070;font-size: 20px;"
+                                            aria-hidden="true"></i>
+                                    </button>
+                                </div>
+                            </div> -->
+                        </section>
                     </div>
-                    <div class="col-5"></div>
+                    <!--  create project button -->
+                    <div class="col-12 d-flex mt-5">
+                        <div class="col-10"></div>
+                        <div class="col-2">
+                            <!-- Button trigger modal -->
+                            <a href="/rework-timesheet/My Clients/Client_Details_Current_Project.html">
+                                <button type="button" class="btn btn-primary ms-5" data-bs-toggle="modal"
+                                data-bs-target="">
+                               Update
+                            </button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content" style="height: 185px; width: 450px;">
+                                <div class="d-flex justify-content-end mt-2 me-2">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class=" d-flex justify-content-center">
+                                    <img src="images/popup logo.svg" alt="create client sucess popup icon">
+                                </div>
+                                <h5 class="d-flex justify-content-center mt-3">Client Created Successfully</h5>
+                                <div class="d-flex justify-content-center mt-3 pb-3">
+                                    <button type="button"
+                                        class="btn btn-primary client-create-pop-button d-flex justify-content-center align-items-center"
+                                        data-bs-dismiss=""><span style="font-size: 12px;"><a
+                                                href="/rework-timesheet/My Project/current project/current project.html"
+                                                class="text-decoration-none text-white">ok</a></span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- edit trigger button  -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Edit Task</h4>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="email" class="form-label">Task
+                                                    Person</label>
+                                                <input type="text" class="form-control" placeholder="UX/UI"
+                                                    name="email">
+                                            </div>
+                                            <div class="col">
+                                                <label for="text" class="form-label">No. Of Hours For This Task</label>
+                                                <select class="form-select" id="validationDefault03" required>
+                                                    <option>40 hrs </option>
+                                                    <option>Completed</option>
+                                                    <option>In active</option>
+                                                    <option>Hold</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col">
+                                                <label for="number" class="form-label">Start Date
+                                                </label>
+                                                <input type="date" class="form-control" placeholder="0000000000"
+                                                    name="number">
+                                            </div>
+                                            <div class="col">
+                                                <label for="email" class="form-label">Completion Date</label>
+                                                <input type="date" class="form-control" placeholder="arun@gmail.com"
+                                                    name="email">
+                                            </div>
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col">
+                                                <label for="number" class="form-label">Status
+                                                </label>
+                                                <input type="text" class="form-control" placeholder="On going"
+                                                    name="number">
+                                            </div>
+                                            <div class="col"></div>
+                                        </div>
+
+                                    </form>
+                                </div>
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary"
+                                        data-bs-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- delete  trigger button -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class=" modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84"
+                                        fill="none">
+                                        <circle cx="42" cy="42" r="42" fill="#FC003C" />
+                                        <mask id="mask0_1_11793" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                            x="14" y="14" width="55" height="55">
+                                            <rect x="14" y="14" width="55" height="55" fill="#D9D9D9" />
+                                        </mask>
+                                        <g mask="url(#mask0_1_11793)">
+                                            <path
+                                                d="M41.5 64.4167L40.9271 57.5417H40.3542C34.9306 57.5417 30.3281 55.6511 26.5469 51.8698C22.7656 48.0886 20.875 43.4862 20.875 38.0625C20.875 32.6389 22.7656 28.0365 26.5469 24.2552C30.3281 20.474 34.9306 18.5834 40.3542 18.5834C43.066 18.5834 45.5964 19.0895 47.9453 20.1016C50.2943 21.1138 52.3568 22.5079 54.1328 24.2839C55.9089 26.0599 57.3029 28.1224 58.3151 30.4714C59.3273 32.8204 59.8333 35.3507 59.8333 38.0625C59.8333 40.9271 59.3655 43.6771 58.4297 46.3125C57.4939 48.948 56.2144 51.3924 54.5911 53.6459C52.9679 55.8993 51.0391 57.9427 48.8047 59.7761C46.5703 61.6094 44.1354 63.1563 41.5 64.4167ZM46.0833 56.0521C48.7951 53.7605 51.0009 51.0773 52.7005 48.0026C54.4002 44.928 55.25 41.6146 55.25 38.0625C55.25 33.8993 53.8082 30.3759 50.9245 27.4922C48.0408 24.6085 44.5174 23.1667 40.3542 23.1667C36.191 23.1667 32.6675 24.6085 29.7839 27.4922C26.9002 30.3759 25.4583 33.8993 25.4583 38.0625C25.4583 42.2257 26.9002 45.7492 29.7839 48.6329C32.6675 51.5165 36.191 52.9584 40.3542 52.9584H46.0833V56.0521ZM40.2969 50.6094C40.9462 50.6094 41.5 50.3802 41.9583 49.9219C42.4167 49.4636 42.6458 48.9098 42.6458 48.2605C42.6458 47.6111 42.4167 47.0573 41.9583 46.599C41.5 46.1407 40.9462 45.9115 40.2969 45.9115C39.6476 45.9115 39.0937 46.1407 38.6354 46.599C38.1771 47.0573 37.9479 47.6111 37.9479 48.2605C37.9479 48.9098 38.1771 49.4636 38.6354 49.9219C39.0937 50.3802 39.6476 50.6094 40.2969 50.6094ZM38.6354 43.3334H42.0729C42.0729 42.1875 42.1875 41.3855 42.4167 40.9271C42.6458 40.4688 43.3715 39.6285 44.5938 38.4063C45.2812 37.7188 45.8542 36.974 46.3125 36.1719C46.7708 35.3698 47 34.5105 47 33.5938C47 31.6459 46.3411 30.1849 45.0234 29.211C43.7057 28.237 42.1493 27.75 40.3542 27.75C38.6736 27.75 37.2604 28.2179 36.1146 29.1537C34.9687 30.0894 34.1667 31.2257 33.7083 32.5625L36.9167 33.823C37.1076 33.1737 37.4705 32.5339 38.0052 31.9037C38.5399 31.2735 39.3229 30.9584 40.3542 30.9584C41.3854 30.9584 42.1589 31.2448 42.6745 31.8177C43.1901 32.3907 43.4479 33.0209 43.4479 33.7084C43.4479 34.3577 43.2569 34.9401 42.875 35.4558C42.4931 35.9714 42.0347 36.4966 41.5 37.0313C40.1632 38.1771 39.3516 39.0842 39.0651 39.7526C38.7786 40.421 38.6354 41.6146 38.6354 43.3334Z"
+                                                fill="white" />
+                                        </g>
+                                    </svg>
+
+                                    <h1 class="modal-title fs-5 ms-3" id="staticBackdropLabel">Are
+                                        you
+                                        Sure want to Remove Contact Details</h1>
+
+                                </div>
+                                <div class="modal-body">
+                                    Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting
+                                    industry.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary"
+                                        data-bs-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Yes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                
-                    <!-- create (+)button -->
-                    <div class="d-flex justify-content-end align-items-end pe-4" style="padding-top: 200px;">
-                        <a class="btn btn-primary create-button d-flex align-items-center justify-content-center"
-                            href="/rework-timesheet/My Clients/create_client.html" role="button">
-                            <span class="material-symbols-outlined">add</span>
-                        </a>
-                    </div>
             </div>
         </div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
         </script>
