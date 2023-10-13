@@ -72,9 +72,7 @@ html {
 }
 
 /* report -- form  */
-.form-control {
-   height: 44px;
-}
+
 
 .report-form input::placeholder {
     color: #87888C;
