@@ -1,38 +1,42 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body,html{
+
+body,
+html {
     height: 100%;
 }
+
 /* .logoimg{
     margin-left: 20px;
 } */
 /* .left-side>ul>li{
     margin-top: 20px;
 } */
-.sidebar{
+.sidebar {
     height: 100%;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 2;
-  
+
 }
+
 .header {
     background: #FFF;
     box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
     position: sticky;
     top: 0;
-    z-index: 1;   
+    z-index: 1;
 }
 
-.profile-arrow>svg{
+.profile-arrow>svg {
     margin-top: 5px;
 }
-.dropdown-menu{
+
+.dropdown-menu {
     width: 200px;
 }
 
@@ -170,6 +174,7 @@ th {
     font-weight: 600;
     line-height: normal;
 }
+
 /*  */
 
 .submitted-approval h6 {
@@ -189,6 +194,7 @@ th {
     font-weight: 500;
     line-height: normal;
 }
+
 /* approved timing style */
 
 .approval-time h6 {
@@ -200,36 +206,71 @@ th {
     font-weight: 600;
     line-height: normal;
 }
+
 /* approved style */
-.approved-sucess h6{
+.approved-sucess h6 {
     color: #00B71E;
-font-family: Lato;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
-.approved-sucess-style{
- 
-width: 5px;
-background: #00B71E;;
-border-top-left-radius: 5px;
-border-bottom-left-radius: 5px;
 
-}
-/* rejected style */
-.rejected h6{
-    color: #EA1C2D;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-}
-.rejected-style{
+.approved-sucess-style {
+
     width: 5px;
-background: #EA1C2D; 
-border-top-left-radius: 5px;
-border-bottom-left-radius: 5px;
+    background: #00B71E;
+    ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 
 }
+
+/* rejected style */
+.rejected h6 {
+    color: #EA1C2D;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.rejected-style {
+    width: 5px;
+    background: #EA1C2D;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.forms select {
+    height: 30px;
+    margin-bottom: 0px;
+
+    border: 1px solid rgba(135, 134, 134, 0.60);
+    border-radius: 2px;
+    
+    font-size: 11px;
+    padding-left: 5px;
+    color: #000;
+    font-family: Inter;
+    font-weight: 500;
+    background-color: transparent;
+}
+.task select{
+    height: 30px;
+    margin-bottom: 0px;
+    border: 1px solid rgba(135, 134, 134, 0.60);
+    border-radius: 2px; 
+    font-size: 11px;
+    padding-left: 5px;
+    color: #000;
+    font-family: Inter;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+
+
