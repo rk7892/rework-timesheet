@@ -217,6 +217,39 @@ letter-spacing: 0.25px;
     line-height: normal;
     letter-spacing: 0.3px;
 }
+.search-container input {
+    width: 194px;
+    height: 39px;
+    border: 1px solid #D0D5DD;
+    border-radius: 4px;
+    outline: none;
+    color: #87888C;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.search-container input::placeholder {
+    color: #87888C;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.search-container input[type="text"] {
+    outline: none;
+    color: #87888C;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.search-icon {
+    position: absolute;
+    color: #666666;
+}
 
 
 
