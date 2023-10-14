@@ -140,7 +140,7 @@ html {
 }
 
 .project-card {
-    width: 281px;
+    /* width: 281px; */
     height: 238px;
     border-radius: 10px;
     border: 1px solid #D9D9D9;
