@@ -1,61 +1,320 @@
-<div class="container-fluid py-4">
-    <div class="row">
-      <div class="col-6">
-        <h2 class="page-title">E - Way Bill</h2>
+<div class="container d-flex align-items-center page-back">
+  <a class="text-decoration-none pe-1" routerLink="/new">
+    <i class="bi bi-arrow-left-short"></i>
+  </a>
+  <a routerLink="/" class="page-title py-4 m-0 text-decoration-none">New E - Way Bill</a>
+</div>
+
+<div class="container pt-3">
+  <form>
+    <div class="col-sm-12 py-2 d-flex">
+      <div class="col-sm-6 d-flex justify-content-between align-items-center">
+        <div class="col-sm-4">
+          <label for="customerDisplayName" class="form-label">Documents Type *</label>
+        </div>
+        <div class="col-sm-8 d-flex pe-2">
+          <select class="select-button px-2 py-2 rounded-3 w-100 " formControlName="customerName" required>
+            <option value="mr">Invoices</option>
+            <option value="miss">EV Fort</option>
+            <option value="mrs">Delivery Challans</option>
+          </select>
+        </div>
       </div>
-      <div class="col-sm-6  d-flex justify-content-end">
-        <form class="navbar-form me-4" role="search">
-          <ul class="navbar-nav bd-navbar-nav flex-row">
-            <li class="nav-item">
-              <div class="form-group has-search">
-                <i class="bi bi-search form-control-search"></i>
-                <input type="text" class="form-control" placeholder="Search Here">
-              </div>
-            </li>
-          </ul>
-        </form>
-        <button type="button" class="btn btn-primary" routerLink="/new-delivery-challan">+Create New Bill</button>
+      <div class="col-sm-6">
+
       </div>
     </div>
-    <div class="customers">
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">E-Way Bill No.</th>
-            <th scope="col">Create on</th>
-            <th scope="col">Dealer Name</th>
-            <th scope="col">Transaction </th>
-            <th scope="col">Dealer GST</th>
-            <th scope="col">Total Value</th>
-           
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let x of [1, 2, 3, 4, 5];">
-            <th scope="row">
-              <a [routerLink]="['./delivery-challan-receipt']">EW - 6348</a>
-            </th>
-            <td>12/09/2023</td>
-            <td>E - Chargers</td>
-            <td>T - 4743749782</td>
-            <td>33OEF8392D</td>
-            <td>₹60,990</td>
-           
-          </tr>
-        </tbody>
-      </table>
-      <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-end">
-          <li class="page-item disabled">
-            <a class="page-link">Previous</a>
-          </li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#">Next</a>
-          </li>
-        </ul>
-      </nav>
+    <div class="col-sm-12 py-2 d-flex">
+      <div class="col-sm-6 d-flex justify-content-between align-items-center">
+        <div class="col-sm-4">
+          <label for="newcustomerId" class="form-label">Transaction Sub Type * </label>
+        </div>
+        <div class="col-sm-8 d-flex pe-2">
+          <select class="select-button px-2 py-2 rounded-3 w-100 " formControlName="customerName" required>
+            <option value="mr">Export</option>
+            <option value="miss">Supply</option>
+
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-6">
+      </div>
+    </div>
+    <hr>
+    <!-- customer display name -->
+    <div class="col-sm-12 py-2 d-flex">
+      <div class="col-sm-6 d-flex justify-content-between align-items-center">
+        <div class="col-sm-4">
+          <label for="customerDisplayName" class="form-label">Dealer Name *</label>
+        </div>
+        <div class="col-sm-8 d-flex pe-2">
+          <select class="select-button px-2 py-2 rounded-3 w-100 " formControlName="customerName" required>
+            <option value="1">E-charger</option>
+            <option value="2">EV-Fort</option>
+            <option value="3">Smart Point</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-sm-6">
+      </div>
+    </div>
+    <div class="col-sm-12 mb-3 py-2 d-flex ">
+      <div class="col-sm-6 d-flex justify-content-between align-items-center">
+        <div class="col-sm-4">
+          <label for="newcustomerId" class="form-label">Invoice# </label>
+        </div>
+        <div class="col-sm-8 d-flex pe-2">
+          <input type="text" class="form-control" id="customername" formControlName="customername" required
+            placeholder="INV - 0001" />
+        </div>
+      </div>
+      <div class="col-sm-6 d-flex justify-content-between align-items-center">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-1">
+          <label for="newcustomerId" class="form-label"> Date*</label>
+        </div>
+        <div class="col-sm-6 d-flex pe-2 ">
+          <input type="date" class="form-control gray-bg" id="customername" formControlName="customername" required
+            placeholder="" />
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </div>
+  </form>
+  <div class="col-sm-12 d-flex mb-3">
+    <div class="col-sm-6 d-flex">
+      <div class="col-sm-4">
+        Address Details
+      </div>
+      <div class="col-sm-4">
+        <h6 class="info-label mb-3">DISPATCH FROM</h6>
+        <h6 class="info-data">
+          077 Danika Way Apt. 070
+          Mumbai
+          Maharashtra
+          India - 400068
+        </h6>
+      </div>
+      <div class="col-sm-4 border-end">
+        <h6 class="info-label mb-3">BILL FROM</h6>
+        <h6 class="info-data">077 Danika Way Apt. 070
+          Mumbai
+          Maharashtra
+          India - 400068</h6>
+
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="col-sm-12 d-flex">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4">
+          <div>
+            <h6 class="info-label mb-3">BILL To</h6>
+          </div>
+          <div>
+            <p class="info-data"> 674 Bogisich Landing Suite 757
+              Vadodara
+              Gujarat
+              India - 390001</p>
+
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5">
+          <div>
+            <h6 class="info-label">Ship to</h6>
+          </div>
+          <div>
+            <p class="info-data"> 674 Bogisich Landing Suite 757
+              Vadodara
+              Gujarat
+              India - 390001</p>
+
+          </div>
+
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+
     </div>
   </div>
+  <form>
+    <div class="col-sm-12 py-2 d-flex mb-3">
+      <div class="col-sm-6 d-flex justify-content-between align-items-center">
+        <div class="col-sm-4">
+          <label for="customerDisplayName" class="form-label">Place of Delivery *</label>
+        </div>
+        <div class="col-sm-8 d-flex pe-2">
+          <input type="text" class="form-control" id="customername" formControlName="customername" required
+            placeholder="Gujarat" />
+        </div>
+      </div>
+      <div class="col-sm-6">
+
+      </div>
+    </div>
+  </form>
+  <h6 class="info-data class mb-3">See Item Details</h6>
+  <div class="invoice-items mb-3">
+    <table class="table table-bordered">
+      <thead class="table-light">
+        <tr>
+          <th style="width: 50%">Item Details</th>
+          <th style="width: 15%">Quantity</th>
+          <th style="width: 15%">Rate</th>
+          <th style="width: 15%">Amount</th>
+        </tr>
+      </thead>
+      <tbody class="mb-3">
+        <tr>
+          <td>WARRIOR 5G</td>
+          <td>1.00</td>
+          <td>0.00</td>
+          <td>0.00</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="col-sm-12 d-flex mb-3">
+    <div class="col-sm-9"></div>
+    <div class="col-sm-3 d-flex">
+      <div class="col-sm-12 payment-ledger pt-3 px-3">
+        <div class="col-sm d-flex justify-content-end">
+          <p class="text-end info-data">Taxable Amount :</p>
+          <p class="text-end">0.000</p>
+        </div>
+        <div class="col-sm d-flex justify-content-end">
+          <p class="text-end app-subheading-h6"> TOTAL:</p>
+          <p class="text-end app-subheading-h6">0.000</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="col-sm-12 mb-3">
+
+    <div class="col-sm-6">
+      <h6 class="info-data">Transporation Details</h6>
+    </div>
+    <div class="col-sm-6"></div>
+  </div>
+  <!-- forms -->
+  <div class="col-sm-12 py-2 d-flex mb-3">
+    <div class="col-sm-4 d-flex justify-content-between align-items-center">
+      <div class="col-sm-4">
+        <label for="customerDisplayName" class="form-label">Transporter *</label>
+      </div>
+      <div class="col-sm-7 d-flex pe-2">
+        <select class="select-button px-2 py-2 rounded-3 w-100 " formControlName="customerName" required>
+          <option value="mr">Driver 1</option>
+          <option value="miss">Driver 2</option>
+
+        </select>
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="col-sm-4 d-flex justify-content-between align-items-center">
+      <div class="col-sm-4">
+        <label for="customerDisplayName" class="form-label">Distance (in Km) *</label>
+      </div>
+      <div class="col-sm-7 d-flex pe-2">
+        <input type="text" class="form-control" id="customername" formControlName="customername" required
+          placeholder="224 Km" />
+      </div>
+      <div class="col-sm-1"></div>
+    </div>
+    <div class="col-sm-4 d-flex justify-content-between align-items-center">
+      <div class="col-sm-5">
+        <label for="customerDisplayName" class="form-label">Mode of Transportation</label>
+      </div>
+      <div class="col-sm-7 d-flex pe-2">
+        <select class="select-button px-2 py-2 rounded-3 w-100 " formControlName="customerName" required>
+          <option value="mr">Road</option>
+          <option value="miss">Rail</option>
+          <option value="mrs">Ship</option>
+          <option value="mrs">Air</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <!-- form 2 -->
+  <div class="col-sm-12 mb-3">
+
+    <div class="col-sm-6">
+      <h6 class="info-data">Vehicle Type</h6>
+    </div>
+    <div class="col-sm-6"></div>
+  </div>
+  <form>
+    <div class="row">
+      <div class="col-sm-12 py-2 mb-3">
+        <!-- customer type -->
+        <div class="col-sm-6 d-flex justify-content-between align-items-center">
+          <div class="col-sm-4 customer_type">
+            <label for="customerName" class="form-label">User Type <span>*</span></label>
+          </div>
+          <div class="col-sm-8 d-flex">
+            <label class="d-flex pe-3">
+              <input type="radio" value="No" name="customerType" formControlName="taxDeducted">
+              <span class="ps-2">Dealer</span>
+            </label>
+            <label class="d-flex align-items-center">
+              <input type="radio" value="Yes" name="customerType" formControlName="taxDeducted">
+              <span class="ps-2">Distributor</span>
+            </label>
+          </div>
+
+        </div>
+        <div class="col-sm-6">
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 py-2 d-flex mb-3">
+      <div class="col-sm-6 d-flex justify-content-between align-items-center">
+        <div class="col-sm-4">
+          <label for="customerDisplayName" class="form-label">Vehicle No *</label>
+        </div>
+        <div class="col-sm-8 d-flex pe-2">
+          <input type="text" class="form-control" id="customername" formControlName="customername" required
+            placeholder="KA 04 AB 0822" />
+        </div>
+      </div>
+      <div class="col-sm-6">
+
+      </div>
+    </div>
+    <div class="col-sm-12 py-2 d-flex mb-3">
+      <div class="col-sm-6 d-flex justify-content-between align-items-center">
+        <div class="col-sm-4">
+          <label for="customerDisplayName" class="form-label">Transporter's Doc No *</label>
+        </div>
+        <div class="col-sm-8 d-flex pe-2">
+          <input type="text" class="form-control" id="customername" formControlName="customername" required
+            placeholder="D - 8649283" />
+        </div>
+      </div>
+      <div class="col-sm-6">
+
+      </div>
+    </div>
+    <div class="col-sm-12 py-2 d-flex mb-3">
+      <div class="col-sm-6 d-flex justify-content-between align-items-center">
+        <div class="col-sm-4">
+          <label for="customerDisplayName" class="form-label">Transporter's Doc Date *</label>
+        </div>
+        <div class="col-sm-8 d-flex pe-2">
+          <input type="date" class="form-control" id="customername" formControlName="customername" required
+            placeholder="" />
+        </div>
+      </div>
+      <div class="col-sm-6">
+
+      </div>
+    </div>
+  </form>
+  <hr>
+  <div class="col-sm-12 d-flex justify-content-end my-4">
+    <button type="submit" class="btn btn-secondary me-3">Cancel</button>
+    <button type="submit" class="btn btn-primary">Create Bill</button>
+  </div>
+</div>
