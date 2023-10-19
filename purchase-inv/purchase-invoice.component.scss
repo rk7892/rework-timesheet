@@ -1,0 +1,51 @@
+.unpaid-service tbody > tr:last-child > td {
+  border-bottom: 0;
+}
+.payment-ledger {
+  background: #F1F1F180;
+  border-radius: 12px;
+}
+
+.gray-bg {
+  background: var(--app-gray-bg-color);
+}
+
+.receipt-details {
+.heading {
+  font-size: var(--app-font-size-md);
+  font-weight: var(--app-font-weight-medium);
+}
+h6{
+  color: var(--app-light-gray-color);
+  font-size: var(--app-font-size-sm);
+}
+.title {
+  color: var(--app-dark-color);
+  font-size: var(--app-font-size-sm);
+}
+p{
+  margin-bottom: 0;
+}
+.info-data {
+  font-weight: var(--app-font-weight-normal);
+  color: var(--app-label);
+}
+
+.info-label {
+  font-weight: var(--app-font-weight-medium);
+  color: var(--app-dark-color);
+}
+table thead tr th{
+background-color: var(--app-light-gray-color);
+color: var(--app-white-color);
+}
+.aknowledge {
+background: var(--app-page-back-bg-color);
+}
+.total-calculation p {
+margin-bottom: 0.8rem;
+}
+.font-bold {
+font-weight: bold;
+}
+}
