@@ -1,0 +1,61 @@
+<div class="container-fluid py-4">
+    <div class="row">
+      <div class="col-6">
+        <h2 class="page-title">E - Way Bill</h2>
+      </div>
+      <div class="col-sm-6  d-flex justify-content-end">
+        <form class="navbar-form me-4" role="search">
+          <ul class="navbar-nav bd-navbar-nav flex-row">
+            <li class="nav-item">
+              <div class="form-group has-search">
+                <i class="bi bi-search form-control-search"></i>
+                <input type="text" class="form-control" placeholder="Search Here">
+              </div>
+            </li>
+          </ul>
+        </form>
+        <button type="button" class="btn btn-primary" routerLink="/new-delivery-challan">+Create New Bill</button>
+      </div>
+    </div>
+    <div class="customers">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">E-Way Bill No.</th>
+            <th scope="col">Create on</th>
+            <th scope="col">Dealer Name</th>
+            <th scope="col">Transaction </th>
+            <th scope="col">Dealer GST</th>
+            <th scope="col">Total Value</th>
+           
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let x of [1, 2, 3, 4, 5];">
+            <th scope="row">
+              <a [routerLink]="['./delivery-challan-receipt']">EW - 6348</a>
+            </th>
+            <td>12/09/2023</td>
+            <td>E - Chargers</td>
+            <td>T - 4743749782</td>
+            <td>33OEF8392D</td>
+            <td>₹60,990</td>
+           
+          </tr>
+        </tbody>
+      </table>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-end">
+          <li class="page-item disabled">
+            <a class="page-link">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
