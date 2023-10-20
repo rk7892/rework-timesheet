@@ -1,0 +1,11 @@
+.gray-bg {
+  background: var(--app-gray-bg-color);
+}
+.payment-ledger {
+  background: #F1F1F180;
+  border-radius: 12px;
+}
+.app-subheading-h6 span {
+  color: var(--app-primary-color);
+  font-size: 12px;
+}
