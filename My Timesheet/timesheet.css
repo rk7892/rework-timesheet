@@ -271,6 +271,37 @@ th {
     font-weight: 500;
     background-color: transparent;
 }
+.selectproject:hover .dropdown{
+    position: absolute;
+    background-color: white;
+    box-shadow: 5px 8px 15px rgba(0,0,0,0.2);
+    display: block;
+    left: 0;
+    /* top: 100%; */
+   
+}
+.dropdown-project ul{
+    display: block;
+    margin: 10px;
+
+}
+.dropdown-project ul li{
+    min-width: 150px;
+    padding: 10px;
+    list-style: none;
+}
+
+.dropdown-project a{
+    color: black;
+    text-decoration: none;
+    padding: 6px 8px;
+    display: block;
+   
+}
+ .dropdown-project{
+    display: none;
+   
+}
 
 
 
