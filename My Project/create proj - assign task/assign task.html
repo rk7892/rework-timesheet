@@ -227,14 +227,14 @@
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item "><a
                                         href="/rework-timesheet/My Project/current project/current project.html"
-                                        class="active-link">My Projects </a></li>
+                                        class="active-link text-decoration-none text-dark">My Projects </a></li>
                                 <li class="breadcrumb-item fw-bold" aria-current="page">Create Project</li>
                             </ol>
                         </nav>
                     </div>
                     <!-- forms -->
-                    <form class="col-12 d-flex " id="form2">
-                        <div class="col-md-3">
+                    <form class="col-12 d-flex  justify-content-between" id="form2">
+                        <div class="col-2">
                             <label for="validationDefault04" class="form-label">Select Client</label>
                             <select class="form-select" id="validationDefault04" required>
                                 <option selected disabled value="">Select Client</option>
@@ -244,12 +244,12 @@
                                 <option>BuildINT</option>
                             </select>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-2">
                             <label for="validationDefault04" class="form-label">Project Name</label>
                             <input type="text" class="form-control" placeholder="Set Project Name "
                                 id="validationCustom01" required>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-2">
                             <label for="validationDefault04" class="form-label">State</label>
                             <select class="form-select" id="validationDefault04" required>
                                 <option>Active</option>
@@ -257,7 +257,7 @@
                                 <option>Hold</option>
                             </select>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-2" style="margin-right: 73px;">
                             <label for="validationDefault04" class="form-label">Select Project Manager</label>
                             <select class="form-select" id="validationDefault04" required>
                                 <option>Tushar B</option>
@@ -281,26 +281,26 @@
                                 </a></option>
                             </select>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 ms-1">
                             <label for="validationDefault04" class="form-label">Start Date</label>
                             <input type="date" class="form-control" placeholder="Set Project Name "
                                 id="validationCustom01" required>
 
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 ms-1">
                             <label for="validationDefault04" class="form-label">End Date</label>
                             <input type="date" class="form-control" placeholder="Set Project Name "
                                 id="validationCustom01" required>
 
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 ms-1">
                             <label for="validationDefault04" class="form-label">Total Hours</label>
                             <input type="time" class="form-control" placeholder="Set Project Name "
                                 id="validationCustom01" required>
                         </div>
                     </form>
                     <!-- nav links -->
-                    <ul class="nav  nav-tabs nav-underline  mt-4">
+                    <ul class="nav  nav-tabs nav-underline" style="margin-top: 50px;">
                         <li class="nav-item disabled-link">
                             <a class="nav-link   ps-3 pe-3" aria-current="page"
                                 href="/rework-timesheet/My Project/create proj - create task/create task.html">Create
@@ -310,7 +310,7 @@
                             <a class="nav-link ps-3  pe-3 " href="" style="border-bottom:2px solid #004CFF;">Assign
                                 Task</a>
                     </ul>
-                    <form class="col-12 d-flex  mt-3" id="form2">
+                    <form class="col-12 d-flex  mt-4" id="form2" style="width: 1035px;">
                         <div class="col-md-3">
                             <label for="validationDefault04" class="form-label">Task</label>
                             <select class="form-select" id="validationDefault04" required>
@@ -348,7 +348,7 @@
                     </form>
                     <!-- form 4 -->
                     <div class="col-12">
-                        <form class="d-flex  mt-3">
+                        <form class="d-flex  mt-4">
                             <div class="col-md-3">
                                 <label for="validationDefault04" class="form-label">End Date</label>
                                 <input type="date" class="form-control" placeholder="40 hrs " id="validationCustom01"
@@ -358,16 +358,16 @@
                             <div class="col-md-3"></div>
                             <div class="col-2 "></div>
                             <div class="col-md-1 ">
-                                <div class="button d-flex justify-content-center align-items-center">
+                                <div class="button d-flex justify-content-center align-items-center ms-3">
                                     <a class=" text-decoration-none" href="#" role="button">+ Add</a>
                                 </div>
                             </div>
                         </form>
                     </div>
                     <!-- banner section -->
-                    <div class="col-12 banner d-flex mt-5 ">
-                        <section class=" col-12 d-flex justify-content-between">
-                            <div class="col-2 ps-3 pt-3 banner-section">
+                    <div class="col-12 mt-4">
+                        <section class="banner  d-flex" style="width: 1020px;">
+                            <div class="col-1 ps-3 mt-3 banner-section">
                                 <div>
                                     <h6>Task</h6>
                                 </div>
@@ -375,15 +375,15 @@
                                     <p>UI/UX</p>
                                 </div>
                             </div>
-                            <div class="col-2 ps-3 pt-3 banner-section">
+                            <div class="col-3 ps-5 mt-3 banner-section">
                                 <div>
                                     <h6>No. Of Hours For This Task</h6>
                                 </div>
                                 <div>
-                                    <p>UI/UX</p>
+                                    <p>40 hrs</p>
                                 </div>
                             </div>
-                            <div class="col-2 ps-5 pt-3 banner-section">
+                            <div class="col-2 ps-5 mt-3 banner-section">
                                 <div>
                                     <h6>Start Date</h6>
                                 </div>
@@ -391,7 +391,7 @@
                                     <p>12-07-2023</p>
                                 </div>
                             </div>
-                            <div class="col-2 ps-5 pt-3 banner-section">
+                            <div class="col-2 ps-5 mt-3 banner-section">
                                 <div>
                                     <h6>Completion Date</h6>
                                 </div>
@@ -399,7 +399,7 @@
                                     <p>12-07-2023</p>
                                 </div>
                             </div>
-                            <div class="col-2 pt-3 ps-5 banner-section">
+                            <div class="col-2 mt-3 ps-5 banner-section">
                                 <div>
                                     <h6>Status</h6>
                                 </div>
@@ -407,15 +407,19 @@
                                     <p>On Going</p>
                                 </div>
                             </div>
-                            <div class="col-2 pt-3 d-flex justify-content-end">
-                                <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#myModal">
-                                    <i class="fa fa-pencil " style="color: #707070;font-size: 20px;"></i>
-                                </button>
-                                <button type="button" class="btn " data-bs-toggle="modal"
-                                    data-bs-target="#staticBackdrop">
-                                    <i class="fa fa-trash-o " style="color: #707070;font-size: 20px;"
-                                        aria-hidden="true"></i>
-                                </button>
+                            <div class="col-2 mt-3 d-flex justify-content-end">
+                                <div>
+                                    <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#myModal">
+                                        <i class="fa fa-pencil " style="color: #707070;font-size: 20px;"></i>
+                                    </button>
+                                </div>
+                                <div>
+                                    <button type="button" class="btn " data-bs-toggle="modal"
+                                        data-bs-target="#staticBackdrop">
+                                        <i class="fa fa-trash-o " style="color: #707070;font-size: 20px;"
+                                            aria-hidden="true"></i>
+                                    </button>
+                                </div>
                             </div>
                         </section>
                     </div>
@@ -524,15 +528,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 d-flex mt-4">
-                        <div class="col-10"></div>
-                        <div class="col-2 justify-content-end d-flex ">
-
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#staticBackdrop1">
-                                Create Project
-                            </button>
-                        </div>
+                    <!--  create project button -->
+                    <div class="d-flex justify-content-end align-item-center mb-3" style="margin-top: 100px;">
+                        <!-- Button trigger modal  -->
+                         <button type="button" class="btn btn-primary ms-5 fs-6" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop1">
+                            Create Project
+                        </button>
                     </div>
                     <!-- modal button -->
                     <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
