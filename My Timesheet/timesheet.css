@@ -271,13 +271,13 @@ th {
     font-weight: 500;
     background-color: transparent;
 }
-.selectproject:hover .dropdown{
+.selectproject:hover .dropdown-project{
     position: absolute;
     background-color: white;
     box-shadow: 5px 8px 15px rgba(0,0,0,0.2);
     display: block;
     left: 0;
-    /* top: 100%; */
+    top: 100%;
    
 }
 .dropdown-project ul{
