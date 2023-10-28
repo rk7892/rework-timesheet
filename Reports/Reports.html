@@ -26,7 +26,14 @@
     <!-- google icons link -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-</head>
+<!--datepicker-->
+
+
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap-datepicker.min.css" rel="stylesheet" type="text/css"/>
+
+
+    </head>
 
 <body>
     <div class="container-fluid">
@@ -221,8 +228,8 @@
                 </div>
                 <!-- main content -->
                 <div class="d-flex justify-content-between ms-3 mt-3 ">
-                    <h2 class="fw-bold">Report</h2>
-                    <div class="d-flex search-container justify-content-end align-items-center">
+                    <h2>Reports</h2>
+                    <div class="d-flex search-container justify-content-end align-items-center" style="margin-right: 25px;">
                         <input id="searchbar" class="ps-3" type="search" name="search" placeholder="Search">
                         <button class="material-symbols-outlined search-icon border-0 bg-body  me-3">search</button>
                     </div>
@@ -231,24 +238,41 @@
                 <div class="container">
                     <div class="col-12 d-flex mt-3">
                         <div class="col-10 d-flex justify-content-between">
-                            <div class="col-2">
-                                <input type="date" class="form-control" id="exampleFormControlInput1"
+                            <div class="col-2" id="Re-col">
+                                <div id="datepick">
+                                <input type="text" id="dob" class="form-control" autocomplete="off"
                                     placeholder="Start Date">
+                                    <span class="input-group-append">
+                                        <span class="input-group-text bg-white border-0 text-secondary">
+                                            <i class="fa fa-calendar"></i>
+                                        </span>
+                                    </span>
+                                </div>
+                                    
                             </div>
-                            <div class="col-2 ">
-                                <input type="date" class="form-control" id="exampleFormControlInput1"
-                                    >
+                            <div class="col-2" id="Re-col">
+                                <div id="datepick">
+                                    <input type="text" id="dob" class="form-control" autocomplete="off"
+                                        placeholder="End Date">
+                                        <span class="input-group-append">
+                                            <span class="input-group-text bg-white border-0 text-secondary">
+                                                <i class="fa fa-calendar"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                        
                             </div>
-                            <div class="col-2 forms">
-                                <select class="form-select" aria-label="Default select example">
+                            
+                            <div class="col-2 forms" id="Re-col">
+                                <select class="form-select" style="height: 45px;" aria-label="Default select example">
                                     <option selected>Select Project</option>
                                     <option value="1">Hitachi</option>
                                     <option value="2">TATA</option>
                                     <option value="3">BuildINT</option>
                                   </select>
                             </div>
-                            <div class="col-2 forms">
-                                <select class="form-select" aria-label="Default select example">
+                            <div class="col-2 forms" id="Re-col">
+                                <select class="form-select" style="height: 45px;" aria-label="Default select example">
                                     <option selected>Select Task</option>
                                     <option value="1">Design</option>
                                     <option value="2">Developing</option>
@@ -256,8 +280,8 @@
                                     <option value="3">Big Data</option>
                                   </select>
                             </div>
-                            <div class="col-2 forms">
-                                <select class="form-select" aria-label="Default select example">
+                            <div class="col-2 forms" id="Re-col">
+                                <select class="form-select" style="height: 45px; background-color: white;" aria-label="Default select example">
                                     <option selected>Select Employee</option>
                                     
                                     <option value="1">Udhaya</option>
@@ -267,8 +291,10 @@
                                 </select>
                             </div>
                         </div>
+                       
                         <div class="col-2 d-flex justify-content-end">
-                           <div class="btn btn-primary"> <i class="fa fa-download pe-3" aria-hidden="true"></i>Download</div>
+                            <a href="./download.jpeg" download="Timesheet" class="download-btn">
+                                  <div class="btn btn-primary" style="height: 45px;"> <i class="fa fa-download pe-3 pt-2" aria-hidden="true"></i>Download</div></a>
                         </div>
                     </div>
                 </div>
@@ -277,7 +303,8 @@
             </div>
         </div>
     </div>
-
+  
 </body>
 
 </html>
+    
