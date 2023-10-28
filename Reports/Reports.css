@@ -82,8 +82,22 @@ body,html{
     line-height: normal;
     height: 38px;  
 }
+#datepick{
+    display: flex;
+    position: relative;
+    font-family: Mulish;
+    height: 45px;
+ 
+}
+.input-group-append{
+    position: absolute;
+padding-left: 120px;
+padding-top: 6px;
 
-
-
-
-
+}
+#datepick input{
+    font-size: 14px;
+}
+#Re-col{
+    width: 160px;
+}
