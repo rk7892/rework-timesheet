@@ -426,15 +426,45 @@
 
                     </div>
                     <div class="float-end" style="margin-top:100px;">
-                        <a href="/" class="btn btn-primary mb-4 me-2" data-bs-toggle="modal"
-                            data-bs-target="#staticBackdrop">Create Employee</a>
+                        <!-- <a href="/" class="btn btn-primary mb-4 me-2" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Create Employee</a> -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Create Employee</button>
                     </div>
-                    <div class="modal fade" id="staticBackdrop" aria-labelledby="exampleModalLabel" aria-hidden="true"
+                    <!-- modal -->
+                    <div class="modal fade rounde-2" id="modal" aria-labelledby="exampleModalLabel" aria-hidden="true"
                         data-bs-backdrop="static" data-bs-keyboard="false">
 
                         <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="model-header">
+                                    <button type="button" class="btn-close float-end me-2 mt-2" data-bs-dismiss="modal"></button>
+                                    <div style="margin:40px 230px"><span class="material-symbols-outlined text-success display-6">
+                                        verified
+                                    </span></div>
+                                    
+                                    <div class="modal-body text-center mb-5">
+                                        <h4 class="modal-title fw-light fs-5">Emp ID
+                                            - U
+                                            123456</h4>
+                                            <h5>
+                                                Employee Create Successfully
+                                            </h5>
 
-                            <div class="modal-content" style="height: 250px; width: 400px;">
+                                            <p class="fs-6">"The employee ID and Password have been sent to the
+                                                user's
+                                                email ID"</p>
+                                                
+
+                                    </div>
+                                    <div style="margin:30px 230px">
+                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">ok</button>
+                                    </div>
+                                   
+
+                                </div>
+                            </div>
+
+                            <!-- <div class="modal-content">
                                 <button type="button" class="btn-close ms-auto mx-2 mt-3" data-bs-dismiss="model"
                                     aria-label="Close"></button>
                                 <div class="modal-header d-flex flex-column">
@@ -455,7 +485,7 @@
                                                 class="btn btn-primary">ok</button></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
 
                     </div>
