@@ -227,14 +227,14 @@
 
 
                 <!--main-->
-                <div class="main d-flex mt-4">
-                    <h3 class="mt-1" style="margin-left: 30px;font-weight: 300;font-size: 26px; font-weight: 500; ">
-                        Approval</h3>
-                    <form class="form-search ms-auto d-flex">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <button class="btn"><i class="bi bi-search" aria-hidden="true"></i></button>
-                    </form>
+                <div class="d-flex justify-content-between ms-3 mt-3 ">
+                    <h2 style="margin-left: 7px;">Approval</h2>
+                    <div class="d-flex search-container justify-content-end align-items-center">
+                        <input id="searchbar" class="ps-3" type="search" name="search" placeholder="Search">
+                        <button class="material-symbols-outlined search-icon border-0 bg-body  me-3">search</button>
+                    </div>
                 </div>
+
 
                 <div class="ap-main1 d-flex ms-3">
                     <div class="ap-main d-flex">
@@ -270,7 +270,7 @@
                         <thead class="text-center">
                             <tr>
 
-                                <th class="text-dark w-25 pb-3">Employee Profile </th>
+                                <th class="text-dark pb-3 w-25">Employee Profile </th>
                                 <th class="pb-3">Mon,Jul 17 </th>
                                 <th class="pb-3">Tue,Jul 17 </th>
                                 <th class="pb-3">Wed,Jul 17 </th>
@@ -324,14 +324,18 @@
                                 <td class="ap-2l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>7h
                                     05m</td>
                                 <td class="ap-2l pt-4 ps-4">
-                                    <span class="px-2 pt-1 pb-1" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                                        style="color: #666666;border:1px solid #666666; border-radius: 4px; ">Reject</span>
+                                    <span class="pt-1 pb-1" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                                        style="color: #666666;border:1px solid #666666; border-radius: 3px;margin-left: -15px;
+                                       padding: 5px 8px; gap: 10px;">Reject</span>
 
 
-                                    <span class="p-1" data-bs-toggle="modal" data-bs-target="#staticBackdrop1"
-                                        style="background-color: #004CFF; color: white;border-radius: 4px; ">
+                                    <span class="pt-1 pb-1" data-bs-toggle="modal" data-bs-target="#staticBackdrop1"
+                                        style="background-color: #004CFF; color: white;border: 1px solid #004CFF; border-radius: 3px;padding: 4px 8px;gap: 10px;
+                                        font-weight: 300; ">
                                         Approve</span>
                                 </td>
+
+
 
                                 <!--box-btn-->
                                 <div class="modal fade" id="staticBackdrop" aria-labelledby="staticBackdroplabel"
@@ -358,9 +362,9 @@
                                                 </div>
                                                 <div class="modal-footer ms-auto">
                                                     <a href="Approval.html"> <button class=" mx-2"
-                                                            style="color: #707070; border: 1px solid #707070;border-radius: 4px;padding: 4px 14px; ">Cancel</button></a>
+                                                            style="color: #707070; border: 1px solid #707070;border-radius: 4px;padding: 4px 14px;font-size: 12px; ">Cancel</button></a>
                                                     <a href="Approval.html"><button class=" text-white"
-                                                            style="padding: 4px 14px; background-color: #0079FF;border: none;  border-radius: 4px;">Reject</button></a>
+                                                            style="padding: 4px 14px; background-color: #0079FF;border: none;  border-radius: 4px; font-size: 12px;">Reject</button></a>
 
                                                 </div>
                                             </div>
@@ -392,65 +396,61 @@
 
                             </tr>
                         </tbody>
-                    </table>
-                    <div class="collapse" id="collapseExample">
-                        <table class="table table-responsive">
-                            <tr>
 
-                                <td class="ap-3l"><img src="images/R.jpeg" class="img-fluid " style="width: 40px;">
-                                    <span class="mx-1 fs-6">SMRT</span>
-                                    <br>
-                                    <p style="font-size: 14px; color: #A5AEB4;margin-left: 45px;margin-top: -20px;">
-                                        Design-Vendor
-                                        Management</p>
-                                </td>
-                                <td class="ap-3l pt-5" style="padding-left: 20px;">1h 24m</td>
-                                <td class="ap-3l pt-5" style="padding-left: 20px;">2h 34m</td>
-                                <td class="ap-3l pt-5" style="padding-left: 50px;">11m</td>
-                                <td class="ap-3l pt-5" style="padding-left: 20px;">3h 32m</td>
-                                <td class="ap-3l pt-5" style="padding-left: 15px;">3h 22m</td>
-                                <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
-                                <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
-                                <td class="ap-3l pt-5" style="padding-left: 40px;">10h 15m</td>
-                            </tr>
-                            <tr>
+                        <tr>
+                            <!--3l start-->
+                            <td class="ap-3l"><img src="images/R.jpeg" class="img-fluid" style="width: 40px;">
+                                <span class="mx-1 fs-6">SMRT</span>
+                                <br>
+                                <p style="font-size: 14px; color: #A5AEB4;margin-left: 48px;margin-top: -20px;">
+                                    Design-Vendor Management</p>
+                            </td>
 
-                                <td class="ap-3l"><img src="images/R1.jpeg" class="img-fluid" style="width: 40px;">
-                                    <span class="fs-6 mx-1">Hitachi</span>
-                                    <br>
-                                    <p style="font-size: 14px; color: #A5AEB4;margin-left: 45px;margin-top: -20px; ">
-                                        Design-Hitachi Quest
-                                        App</p>
-                                </td>
-                                <td class="ap-3l pt-5" style="padding-left: 50px;">26m</td>
-                                <td class="ap-3l pt-5" style="padding-left: 50px;">43m</td>
-                                <td class="ap-3l pt-5" style="padding-left: 20px;">3h 32m</td>
-                                <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
-                                <td class="ap-3l pt-5" style="padding-left: 15px;">2h 04m</td>
-                                <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
-                                <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
-                                <td class="ap-3l pt-5" style="padding-left: 40px;">7h 15m</td>
-                            </tr>
-                            <tr>
 
-                                <td class="ap-3l"><img src="images/R.jpeg" class="img-fluid" style="width: 40px;">
-                                    <span class="mx-1 fs-6">BuildINT</span>
-                                    <br>
-                                    <p style="font-size: 14px; color: #A5AEB4;margin-left: 45px; margin-top: -20px;">
-                                        Design-Time Sheet</p>
-                                </td>
-                                <td class="ap-3l pt-5" style="padding-left: 20px;">5h 45m</td>
-                                <td class="ap-3l pt-5" style="padding-left: 20px;">5h 30m</td>
-                                <td class="ap-3l pt-5" style="padding-left: 20px;">4h 39m</td>
-                                <td class="ap-3l pt-5" style="padding-left: 50px;">8m</td>
-                                <td class="ap-3l pt-5" style="padding-left: 15px;">2h 40m</td>
-                                <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
-                                <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
-                                <td class="ap-3l pt-5" style="padding-left: 40px;">18h 24m</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <table class="table">
+                            <td class="ap-3l pt-5" style="padding-left: 20px;">1h 24m</td>
+                            <td class="ap-3l pt-5" style="padding-left: 20px;">2h 34m</td>
+                            <td class="ap-3l pt-5" style="padding-left: 50px;">11m</td>
+                            <td class="ap-3l pt-5" style="padding-left: 20px;">3h 32m</td>
+                            <td class="ap-3l pt-5" style="padding-left: 15px;">3h 22m</td>
+                            <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
+                            <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
+                            <td class="ap-3l pt-5" style="padding-left: 40px;">10h 15m</td>
+                        </tr>
+                        <tr>
+
+                            <td class="ap-3l"><img src="images/R1.jpeg" class="img-fluid" style="width: 40px;">
+                                <span class="fs-6 mx-1">Hitachi</span>
+                                <br>
+                                <p style="font-size: 14px; color: #A5AEB4;margin-left: 48px;margin-top: -20px; ">
+                                    Design-Hitachi Quest
+                                    App</p>
+                            </td>
+                            <td class="ap-3l pt-5" style="padding-left: 50px;">26m</td>
+                            <td class="ap-3l pt-5" style="padding-left: 50px;">43m</td>
+                            <td class="ap-3l pt-5" style="padding-left: 20px;">3h 32m</td>
+                            <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
+                            <td class="ap-3l pt-5" style="padding-left: 15px;">2h 04m</td>
+                            <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
+                            <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
+                            <td class="ap-3l pt-5" style="padding-left: 40px;">7h 15m</td>
+                        </tr>
+                        <tr>
+
+                            <td class="ap-3l"><img src="images/R.jpeg" class="img-fluid" style="width: 40px;">
+                                <span class="mx-1 fs-6">BuildINT</span>
+                                <br>
+                                <p style="font-size: 14px; color: #A5AEB4;margin-left: 48px; margin-top: -20px;">
+                                    Design-Time Sheet</p>
+                            </td>
+                            <td class="ap-3l pt-5" style="padding-left: 20px;">5h 45m</td>
+                            <td class="ap-3l pt-5" style="padding-left: 20px;">5h 30m</td>
+                            <td class="ap-3l pt-5" style="padding-left: 20px;">4h 39m</td>
+                            <td class="ap-3l pt-5" style="padding-left: 50px;">8m</td>
+                            <td class="ap-3l pt-5" style="padding-left: 15px;">2h 40m</td>
+                            <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
+                            <td class="ap-3l pt-5" style="padding-left: 35px;">-</td>
+                            <td class="ap-3l pt-5" style="padding-left: 40px;">18h 24m</td>
+                        </tr>
 
                         <tr>
 
@@ -486,14 +486,13 @@
                                 7h 05m</td>
                             <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill " style="color: #D9D9D9;"></i>
                                 7h 05m</td>
-                            <td class="ap-4l pt-4"><span class="px-2 pt-1 pb-1"
-                                    style="color: #666666;border:1px solid #666666; border-radius: 4px; ">Reject</span>
-                                <span class="p-1" style="background-color: #004CFF; color: white;border-radius: 4px; ">
+                            <td class="ap-4l pt-4"><span class="pt-1 pb-1"
+                                    style="color: #666666;border:1px solid #666666; border-radius: 3px;padding: 5px 8px;gap: 10px; ">Reject</span>
+                                <span class=" pt-1 pb-1"
+                                    style="background-color: #004CFF; font-weight: 300; color: white;border: 1px solid #004CFF; border-radius: 3px;padding: 4px 8px;gap: 10px; ">
                                     Approve</span>
                             </td>
                         </tr>
-                    </table>
-                    <table class="table">
                         <tr>
 
                             <td class="ap-4l"><i class="bi-chevron-down mx-1" style="font-weight: 500;"></i>
@@ -528,14 +527,14 @@
                                 7h 05m</td>
                             <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>
                                 7h 05m</td>
-                            <td class="ap-4l pt-4"><span class="px-2 pt-1 pb-1"
-                                    style="color: #666666;border:1px solid #666666; border-radius: 4px; ">Reject</span>
-                                <span class="p-1" style="background-color: #004CFF; color: white;border-radius: 4px; ">
+                            <td class="ap-4l pt-4"><span class="pt-1 pb-1"
+                                    style="color: #666666;border:1px solid #666666; border-radius: 3px;padding: 5px 8px;gap: 10px; ">Reject</span>
+                                <span class=" pt-1 pb-1"
+                                    style="background-color: #004CFF; font-weight: 300; color: white;border: 1px solid #004CFF; border-radius: 3px;padding: 4px 8px;gap: 10px; ">
                                     Approve</span>
                             </td>
                         </tr>
-                    </table>
-                    <table class="table">
+
                         <tr>
 
                             <td class="ap-4l"><i class="bi-chevron-down mx-1" style="font-weight: 500;"></i>
@@ -570,14 +569,14 @@
                                 05m</td>
                             <td class="ap-4l pt-4"><i class="bi-check-circle-fill" style="color: #D9D9D9;"></i> 7h
                                 05m</td>
-                            <td class="ap-4l pt-4"><span class="px-2 pt-1 pb-1"
-                                    style="color: #666666;border:1px solid #666666; border-radius: 4px; ">Reject</span>
-                                <span class="p-1" style="background-color: #004CFF; color: white;border-radius: 4px; ">
+                            <td class="ap-4l pt-4"><span class="pt-1 pb-1"
+                                    style="color: #666666;border:1px solid #666666; border-radius: 3px;padding: 5px 8px;gap: 10px; ">Reject</span>
+                                <span class=" pt-1 pb-1"
+                                    style="background-color: #004CFF; font-weight: 300; color: white;border: 1px solid #004CFF; border-radius: 3px;padding: 4px 8px;gap: 10px; ">
                                     Approve</span>
                             </td>
                         </tr>
-                    </table>
-                    <table class="table">
+
                         <tr>
 
                             <td class="ap-4l"><i class="bi-chevron-down mx-1" style="font-weight: 500;"></i>
@@ -612,10 +611,11 @@
                                 7h 05m</td>
                             <td class="ap-4l pt-4"><i class="bi bi-check-circle-fill" style="color: #D9D9D9;"></i>
                                 7h 05m</td>
-                            <td class="ap-4l pt-4"><span class="px-2 pt-1 pb-1"
-                                    style="color: #666666;border:1px solid #666666; border-radius: 4px; ">Reject</span>
-                                <span class="p-1" style="background-color: #004CFF; color: white;border-radius: 4px; ">
-                                    Approved</span>
+                            <td class="ap-4l pt-4"><span class="pt-1 pb-1"
+                                    style="color: #666666;border:1px solid #666666; border-radius: 3px;padding: 5px 8px;gap: 10px; ">Reject</span>
+                                <span class=" pt-1 pb-1"
+                                    style="background-color: #004CFF; font-weight: 300; color: white;border: 1px solid #004CFF; border-radius: 3px;padding: 4px 8px;gap: 10px; ">
+                                    Approve</span>
                             </td>
                         </tr>
                     </table>
