@@ -110,6 +110,7 @@ html {
 .table-header {
     border-bottom: 1px solid #EAECF0;
     background: #F4F4F4;
+
 }
 
 .table-head {
@@ -128,7 +129,7 @@ th div {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 th {
@@ -138,6 +139,7 @@ th {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+
 }
 
 .table-hour {
@@ -271,22 +273,26 @@ th {
     font-weight: 500;
     background-color: transparent;
 }
+.project{
+    font-size: 14px;
+}
 .selectproject:hover .dropdown-project{
     position: absolute;
     background-color: white;
-    box-shadow: 5px 8px 15px rgba(0,0,0,0.2);
+    /* box-shadow: 5px 8px 15px rgba(0,0,0,0.2); */
+    border: 1px solid rgba(0, 0, 0, 0.1);
     display: block;
     left: 0;
     top: 100%;
-   
+    
 }
 .dropdown-project ul{
     display: block;
     margin: 10px;
-
+   
 }
 .dropdown-project ul li{
-    min-width: 150px;
+    width: 150px;
     padding: 10px;
     list-style: none;
 }

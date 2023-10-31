@@ -140,8 +140,9 @@ body,html{
 .project-team {
     border-radius: 4px;
     border: 1px solid #F3F3F3;
-    background: #FBFBFB;
-}
+    background-color: #FBFBFB;
+   
+} 
 
 .project-team h6 {
     color: #000;
@@ -159,6 +160,7 @@ body,html{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    
 }
 
 /* collapse trigger button */
