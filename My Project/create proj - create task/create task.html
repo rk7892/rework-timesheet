@@ -210,21 +210,21 @@
                 </div>
                 <!-- main content -->
                 <div class="container">
-                    <div class="project-heading mt-4 ">
+                    <div class="project-heading "  style="margin-top: 30px;">
                         <h2>Create Project</h2>
                         <!-- breadcumb -->
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item "><a
                                         href="/rework-timesheet/My Project/current project/current project.html"
-                                        class=" active-link">My Projects </a></li>
-                                <li class="breadcrumb-item fw-bold" aria-current="page">Create Project</li>
+                                        class=" active-link text-decoration-none">My Projects </a></li>
+                                <li class="breadcrumb-item" aria-current="page">Create Project</li>
                             </ol>
                         </nav>
                     </div>
                     <!-- forms -->
-                    <form class="col-12 d-flex" id="form2">
-                        <div class="col-md-3">
+                    <form class="col-12 d-flex justify-content-between align-item-center " id="form2">
+                        <div class="col-2 ">
                             <label for="validationDefault04" class="form-label">Select Client</label>
                             <select class="form-select" id="validationDefault04" required>
                                 <option>Select Client</option>
@@ -235,13 +235,13 @@
                             </select>
 
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-2" >
                             <label for="validationDefault04" class="form-label">Project Name</label>
                             <input type="text" class="form-control" placeholder="Set Project Name "
                                 id="validationCustom01" required>
 
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-2">
                             <label for="validationDefault04" class="form-label">State</label>
                             <select class="form-select" id="validationDefault04" required>
                                 <option>Active</option>
@@ -250,7 +250,7 @@
                             </select>
 
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-2"style="margin-right: 73px;">
                             <label for="validationDefault04" class="form-label">Select Project Manager</label>
                             <select class="form-select" id="validationDefault04" required>
                                 <option>Arun</option>
@@ -260,12 +260,13 @@
                             </select>
 
                         </div>
-                    </form>
+                    </form> 
+                   
                     <!-- forms 2  -->
-                    <form class="col-12 d-flex  mt-4" id="form2">
+                    <form class="col-12 d-flex" id="form2"  style="margin-top: 30px;">
                         <div class="col-md-3">
                             <label for="validationDefault04" class="form-label">Project Type</label>
-                            <select class="form-select" id="validationDefault04" required>
+                            <select class="form-select" id="validationCustom01" required>
                                 <option>Billable</option>
                                 <option>Non Billable</option>
                                 <option>Admin</option>
@@ -274,26 +275,26 @@
 
                             </select>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 ms-1">
                             <label for="validationDefault04" class="form-label">Start Date</label>
                             <input type="date" class="form-control" placeholder="Set Project Name "
                                 id="validationCustom01" required>
 
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 ms-1">
                             <label for="validationDefault04" class="form-label">End Date</label>
                             <input type="date" class="form-control" placeholder="Set Project Name "
                                 id="validationCustom01" required>
 
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 ms-1">
                             <label for="validationDefault04" class="form-label">Total Hours</label>
-                            <input type="time" class="form-control" placeholder="Set Project Name "
+                            <input type="text" class="form-control" placeholder="00:00Hrs "
                                 id="validationCustom01" required>
                         </div>
                     </form>
                     <!-- nav links -->
-                    <ul class="nav  nav-tabs nav-underline  mt-4">
+                    <ul class="nav  nav-tabs nav-underline" style="margin-top: 50px;">
                         <li class="nav-item active">
                             <a class="nav-link   ps-3 pe-3" aria-current="page" href="#"
                                 style="border-bottom:2px solid #004CFF;">Create Team</a>
@@ -303,50 +304,80 @@
                                 href="/rework-timesheet/My Project/create proj - assign task/assign task.html">Assign
                                 Task</a>
                     </ul>
-                    <!-- form section -->
-                    <form class="col-12 d-flex justify-content-between  mt-4" id="form2">
-                        <div class="col-md-2">
-                            <label for="validationDefault04" class="form-label label">Task</label>
-                            <input type="time" class="form-control" placeholder="UI/UX" id="validationCustom02"
-                                required>
+                   
+                    <div class="row mt-3 align-items-center justify-content-between " >
+                                <div class="col-lg-2 col-sm-4 " style="font-weight: 500;font-size: 14px;">
+                                    <form>
+                                        <div class="form-grp" >
+                                            <label for="validationDefault04" class="form-label" >Task</label>
+                                            <input type="text" class="form-control form-control-lg fs-6 me-1"
+                                                placeholder="Ul/Ux" id="validationCustom02"
+                                                required>
+                                        </div>
+                                    </form>
 
-                        </div>
-                        <div class="col-md-2">
-                            <label for="validationDefault04" class="form-label label">No. Of Hours For This Task</label>
-                            <input type="text" class="form-control" placeholder="40 hrs " id="validationCustom02"
-                                required>
+                                </div>
 
-                        </div>
-                        <div class="col-md-2">
-                            <label for="validationDefault04" class="form-label label">Start Date</label>
-                            <input type="date" class="form-control" placeholder="12-07-2023 " id="validationCustom02"
-                                required>
 
-                        </div>
-                        <div class="col-md-2">
-                            <label for="validationDefault04" class="form-label label">Completion date</label>
-                            <input type="time" class="form-control" placeholder="20-07-2023" id="validationCustom02"
-                                required>
-                        </div>
-                        <div class="col-md-2">
-                            <label for="validationDefault04" class="form-label label">Status</label>
-                            <select class="form-select" id="validationDefault03" required>
-                                <option>On going </option>
-                                <option>Completed</option>
-                                <option>In active</option>
-                                <option>Hold</option>
-                            </select>
-                        </div>
-                        <div class="col-md-1 ">
-                            <div class="button d-flex justify-content-center align-items-center">
-                                <a class=" text-decoration-none" href="#" role="button">+ Add</a>
+
+                                <div class="col-lg-3 col-sm-4 me-3 ms-1">
+                                    <form>
+                                        <div class="form-grp ms-5">
+                                            <label for="validationDefault04" class="form-label"
+                                                style="font-size: 14px;font-weight: 500;">No.of
+                                                hours for this task</label>
+                                            <input type="text" class="form-control form-control-lg fs-6"
+                                                placeholder="40 hrs" id="validationCustom02"
+                                                required>
+
+                                        </div>
+
+                                    </form>
+                                </div>
+                                <div class="col-lg-2 col-sm-4 me-5 ">
+                                    <form>
+                                        <div class="form-grp ">
+                                            <label for="validationDefault04" class="form-label"
+                                                style="font-weight: 500;font-size: 14px;">Start date</label>
+                                            <input type="hrs" class="form-control form-control-lg fs-6"
+                                                placeholder="12-07-2023" id="validationCustom02"
+                                                required>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-lg-2 col-sm-4 me-5">
+                                    <form>
+                                        <div class="form-grp ">
+                                            <label for="validationDefault04" class="form-label"
+                                                style="font-weight: 500;font-size: 14px;">Completion date</label>
+                                                <select class="form-select" id="validationDefault03" required>
+                                                    <option>On going </option>
+                                                    <option>Completed</option>
+                                                    <option>In active</option>
+                                                    <option>Hold</option>
+                                                </select>
+                                        </div>
+                                    </form>
+                                </div>
+                               
+
+                                <div class="col-lg-1 " style="margin-top: 30px">
+                                    <a href="#" class="btn text-white"
+                                        style="background-color: #FF8000;width: 65px;"><span
+                                            class="material-symbols-outlined position-absolute fs-6"
+                                            style="margin-left: -15px;margin-top: 4px;color: white;">
+                                            add
+                                        </span>Add</a>
+                                </div>
+
+
+
+
                             </div>
-                        </div>
-                    </form>
                     <!-- banner section -->
-                    <div class="col-12 mt-5">
-                        <section class="banner  d-flex ">
-                            <div class="col-2 ps-3 mt-3 banner-section">
+                    <div class="col-12 mt-4">
+                        <section class="banner  d-flex">
+                            <div class="col-1 ps-3 mt-3 banner-section">
                                 <div>
                                     <h6>Task</h6>
                                 </div>
@@ -354,7 +385,7 @@
                                     <p>UI/UX</p>
                                 </div>
                             </div>
-                            <div class="col-2 ps-3 mt-3 banner-section">
+                            <div class="col-3 ps-5 mt-3 banner-section">
                                 <div>
                                     <h6>No. Of Hours For This Task</h6>
                                 </div>
@@ -403,16 +434,14 @@
                         </section>
                     </div>
                     <!--  create project button -->
-                    <div class="col-12 d-flex mt-5">
-                        <div class="col-10"></div>
-                        <div class="col-2">
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary ms-5" data-bs-toggle="modal"
-                                data-bs-target="#staticBackdrop1">
-                                Create Project
-                            </button>
-                        </div>
+                    <div class="d-flex justify-content-end align-item-center mb-3" style="margin-top: 100px;">
+                        <!-- Button trigger modal  -->
+                         <button type="button" class="btn btn-primary ms-5 fs-6" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop1">
+                            Create Project
+                        </button>
                     </div>
+                   
                     <!-- Modal -->
                     <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
                         tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -429,7 +458,7 @@
                                 <div class="d-flex justify-content-center mt-3 pb-3">
                                     <button type="button"
                                         class="btn btn-primary client-create-pop-button d-flex justify-content-center align-items-center"
-                                        data-bs-dismiss=""><span style="font-size: 12px;"><a
+                                        data-bs-dismiss="modal"><span style="font-size: 12px;"><a
                                                 href="/rework-timesheet/My Project/current project/current project.html"
                                                 class="text-decoration-none text-white">ok</a></span></button>
                                 </div>
@@ -534,7 +563,7 @@
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-outline-secondary"
                                         data-bs-dismiss="modal">Cancel</button>
-                                    <button type="button" class="btn btn-primary"><a href="/rework-timesheet/My Project/create proj - create task/create task.html" class="text-decoration-none text-white">Yes</a></button>
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><a href="/rework-timesheet/My Project/create proj - create task/create task.html" class="text-decoration-none text-white">Yes</a></button>
                                 </div>
                             </div>
                         </div>

@@ -104,3 +104,6 @@ html {
     margin-top: -40px; 
     margin-left: 200px;
 }
+.tab-row>td{
+    height: 50px;
+}

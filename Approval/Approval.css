@@ -72,38 +72,12 @@ body,html{
 
 
 
-body {
-    height: 100%;
-    width: 100%;
-    font-family: 'Inter';
-}
-
 /* .container-fluid {
     font-family: 'Inter';
     font-weight: 400;
 } */
 
-.form-search input {
-    display: block;
-    font-family: 'Mulish';
-    width: 180px;
-    height: 38px;
-    border: 1px solid #D0D5DD;
-    background-color: #ffffff;
-    font-size: 12px;
-    color: #87888c;
 
-}
-
-.form-search button {
-    color: #666666;
-    position: absolute;
-    right: 10px;
-    width: 50px;
-    cursor: pointer;
-    border: none;
-
-}
 
 .ap-main1 {
     margin-top: 35px;
@@ -153,6 +127,7 @@ body {
     border: 1px solid #D9D9D9;
     text-align: center;
     margin-top: 12px;
+   
 
 }
 
@@ -167,9 +142,8 @@ body {
 }
 
 .ap-row {
-    margin-left: 10px;
+    margin-left: 24px;
 }
-
 .table thead th {
     font-size: 13px;
     font-weight: 600;
@@ -224,4 +198,4 @@ body {
 .table tr {
     border-color: #f3f3f3;
     
-}
+} 

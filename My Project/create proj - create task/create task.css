@@ -86,13 +86,14 @@ body,html{
 
 #validationDefault04 {
     height: 44px;
-    width: 273px;
+    width: 245px;
     color: #999;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    
 }
 
 .form-label {
@@ -107,7 +108,7 @@ body,html{
 
 #validationCustom01 {
     height: 44px;
-    width: 273px;
+    width: 245px;
     color: #999;
     font-family: Mulish;
     font-size: 16px;
@@ -142,7 +143,7 @@ body,html{
 
 
 #validationDefault03 {
-    width: 200px;
+    width: 220px;
     height: 44px;
     color: #999;
     font-family: Mulish;
@@ -153,7 +154,7 @@ body,html{
 }
 
 #validationCustom02 {
-    width: 200px;
+    width: 220px;
     height: 44px;
     color: #999;
     font-family: Mulish;
@@ -191,7 +192,7 @@ body,html{
 /* banner section */
 
 .banner {
-    width: 1199px;
+    /* width: 1199px; */
     height: 80px;
     border-radius: 4px;
     border: 1px solid rgba(217, 217, 217, 0.34);
@@ -253,6 +254,5 @@ letter-spacing: 0.25px;
     line-height: normal;
     letter-spacing: 0.3px;
 }
-
 
 

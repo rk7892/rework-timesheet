@@ -1,10 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body,html{
-    height: 100%;
+body,
+html {
+  height: 100%;
 }
 /* .logoimg{
     margin-left: 20px;
@@ -12,247 +13,234 @@ body,html{
 /* .left-side>ul>li{
     margin-top: 20px;
 } */
-.sidebar{
-    height: 100%;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 2;
-  
+.sidebar {
+  height: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 .header {
-    background: #FFF;
-    box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
-    position: sticky;
-    top: 0;
-    z-index: 1;   
+  background: #fff;
+  box-shadow: 2px 4px 16px 0px rgba(190, 190, 190, 0.25);
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .search-container input {
-    width: 194px;
-    height: 39px;
-    border: 1px solid #D0D5DD;
-    border-radius: 4px;
-    outline: none;
-    color: #87888C;
-    font-family: Mulish;
-    font-size: 14px;
-    font-weight: 600;
-
+  width: 194px;
+  height: 39px;
+  border: 1px solid #d0d5dd;
+  border-radius: 4px;
+  outline: none;
+  color: #87888c;
+  font-family: Mulish;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .search-container input::placeholder {
-    color: #87888C;
-    font-family: Mulish;
-    font-size: 14px;
-    font-weight: 600;
+  color: #87888c;
+  font-family: Mulish;
+  font-size: 14px;
+  font-weight: 600;
 }
 
-
 .search-container input[type="text"] {
-    outline: none;
-    color: #87888C;
-    font-family: Mulish;
-    font-size: 14px;
-    font-weight: 600;
+  outline: none;
+  color: #87888c;
+  font-family: Mulish;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .search-icon {
-    position: absolute;
-    color: #666666;
+  position: absolute;
+  color: #666666;
 }
-.profile-arrow>svg{
-    margin-top: 5px;
+.profile-arrow > svg {
+  margin-top: 5px;
 }
-.dropdown-menu{
-    width: 200px;
+.dropdown-menu {
+  width: 200px;
 }
 
 .material-symbols-outlined {
-    width: 16px;
-    height: 16px;
-    color: #4A4A4A;
+  width: 16px;
+  height: 16px;
+  color: #4a4a4a;
 }
 
 /* main content */
 .project-heading h1 {
-    color: #000;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  color: #000;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
-
 #validationDefault04 {
-    height: 44px;
-    width: 273px;
-    color: #999;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  height: 44px;
+  width: 273px;
+  color: #999;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .form-label {
-    color: #20102B;
-    font-family: Mulish;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 18px;
-    /* 128.571% */
+  color: #20102b;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  /* 128.571% */
 }
 
 #validationCustom01 {
-    height: 44px;
-    width: 273px;
-    color: #999;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  height: 44px;
+  width: 273px;
+  color: #999;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 /* nav-links */
-.active>a {
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 20px;
+.active > a {
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
 }
 
 .active {
-
-    background-color: rgba(0, 76, 255, 0.05);
-
+  background-color: rgba(0, 76, 255, 0.05);
 }
 
 .disabled-link a {
-    color: #344054;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 20px;
-    /* 142.857% */
+  color: #344054;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  /* 142.857% */
 }
 
-
 #validationDefault03 {
-    width: 200px;
-    height: 44px;
-    color: #999;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  width: 200px;
+  height: 44px;
+  color: #999;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 #validationCustom02 {
-    width: 200px;
-    height: 44px;
-    color: #999;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  width: 200px;
+  height: 44px;
+  color: #999;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .label {
-    color: #20102B;
-    font-family: Mulish;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 18px;
-    /* 128.571% */
-
+  color: #20102b;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  /* 128.571% */
 }
 
 .button {
-    background-color: #FF8000;
-    width: 73px;
-    height: 44px;
-    flex-shrink: 0;
-    margin-top: 30px;
-    border-radius: 4px;
-
+  background-color: #ff8000;
+  width: 73px;
+  height: 44px;
+  flex-shrink: 0;
+  margin-top: 30px;
+  border-radius: 4px;
 }
 
 .button a {
-    color: white;
-
+  color: white;
 }
 /* banner section */
 
 .banner {
-    width: 1199px;
-    height: 80px;
-    border-radius: 4px;
-    border: 1px solid rgba(217, 217, 217, 0.34);
-    background: #F4F4F4;
+  width: 1199px;
+  height: 80px;
+  border-radius: 4px;
+  border: 1px solid rgba(217, 217, 217, 0.34);
+  background: #f4f4f4;
 }
 
 .banner-section h6 {
-    color: #878686;
-    font-family: Mulish;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  color: #878686;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .banner-section p {
-    color: #000;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  color: #000;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 /* modal button style */
 
 .modal-title {
-    color: #000;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Mulish;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    /* 83.333% */
-    letter-spacing: 0.25px;
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  /* 83.333% */
+  letter-spacing: 0.25px;
 }
-.modal-body{
-    color: #000;
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 125% */
-letter-spacing: 0.25px;
+.modal-body {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.25px;
 }
 
 /* create*/
-.create-button{
-    height: 19px;
-    width: px;
+.create-button {
+  height: 19px;
+  width: px;
 }
-.active-link{
-    color: #1C1B1F;
-    font-family: Mulish;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 0.3px;
+.active-link {
+  color: #1c1b1f;
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.3px;
 }
-
-
-
