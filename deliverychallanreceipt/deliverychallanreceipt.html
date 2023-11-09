@@ -1,0 +1,204 @@
+<div class="container-fluid">
+    <div class="row page-back mb-3">
+      <div class="col-6 d-flex align-items-center ">
+        <a class="text-decoration-none pe-1" routerLink="../">
+          <i class="bi bi-arrow-left-short "></i>
+        </a>
+        <a class="text-decoration-none" routerLink="../">
+          <h2 class="page-title my-2">DC-0021</h2>
+        </a>
+      </div>
+      <div class="col-sm-6 d-flex justify-content-end">
+  
+      </div>
+    </div>
+  
+    <div class="container-fluid">
+      <div class="row mt-3">
+        <div class="col-12 d-flex justify-content-between gray-bg p-3">
+          <div class="col-lg-2 col-md-3 col-sm-4">
+            <h6 class="info-label">Customer Name</h6>
+            <h6 class="info-data">EV Fort</h6>
+          </div>
+          <div class="col-lg-2 col-md-2 d-none d-sm-block">
+            <h6 class="info-label">Reference#</h6>
+            <h6 class="info-data">&870</h6>
+          </div>
+          <div class="col-lg-2 col-md-2 d-none d-sm-block">
+            <h6 class="info-label">Invoice Status</h6>
+            <h6 class="info-data">Delivered</h6>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4">
+            <h6 class="info-label">Date</h6>
+            <h6 class="info-data">15/08/2023</h6>
+          </div>
+          <div class="col-lg-2 col-md-2 d-none d-sm-block">
+            <h6 class="info-label">Amount</h6>
+            <h6 class="info-data">₹60,990</h6>
+          </div>
+          <div class="col-lg-2 col-md-1 col-sm-4">
+            <h6 class="info-label">Status</h6>
+            <h6 class="info-data customer-status">Open</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class=" d-flex align-items-center receipt-page-back">
+      <div class="col-12 d-flex justify-content-between">
+        <div class="col-lg-4 col-md-4 col-sm-6 d-flex align-items-center flex-row">
+          <h2 class="app-subheading-h6 my-2">Delivery Challan</h2>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-6 d-flex flex-row justify-content-end receipt-buttons">
+          <button class="btn btn-link d-flex"><i class="bi bi-download pe-2"></i><span class="d-none d-sm-block"> Download
+              pdf</span></button>
+          <button class="btn btn-link d-flex"><i class="bi bi-printer pe-2"></i><span class="d-none d-sm-block">
+              Print</span></button>
+          <button mat-button [matMenuTriggerFor]="belowMenu">
+            <mat-icon iconPositionStart>more_vert</mat-icon>
+            <span class="button-lable d-none d-sm-block">Action</span>
+          </button>
+          <mat-menu #belowMenu="matMenu" yPosition="below">
+            <button mat-menu-item><i class="bi bi-share pe-2"></i> Share</button>
+            <button mat-menu-item><i class="bi bi-pencil pe-2"></i>Edit</button>
+            <button mat-menu-item><i class="bi bi-trash pe-2"></i>Delete</button>
+          </mat-menu>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-sm-12 d-flex justify-content-center mb-3">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+      <div class="receipt-details align-items-center border ">
+        <div class="align-items-center p-3">
+          <div class="col-sm-12 d-flex justify-content-between">
+            <div class="col-sm-6 d-flex">
+              <img src="/assets/images/receipt-logo.png">
+            </div>
+            <div class="col-sm-6 d-flex justify-content-end align-items-center">
+              <h5 class="app-subheading-h6">Delivery challan</h5>
+            </div>
+          </div>
+          <hr>
+          <div class="col-12 d-flex justify-content-between">
+            <div class="col-lg-6 col-md-6 col-sm-8">
+              <h6>Billed to</h6>
+              <h6 class="title">ASP Motors</h6>
+              <p>3455 Geraldine Lane, <br> New York 10013 <br>
+                United States</p>
+            </div>
+            <div class="col-lg-2 col-md-2">
+  
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 d-flex align-items-center justify-content-end">
+              <div>
+                <h6>Date : 07/07/2023</h6>
+                <h6>Invoice # : 0000001</h6>
+              </div>
+              </div>
+            <hr>
+          </div>
+          <hr>
+          <div class="col-sm-12 pb-2">
+            <table class="table table-bordered">
+              <thead class="table-dark-bg">
+                <tr>
+                  <th style="width: 50%;">Items</th>
+                  <th style="width: 10%;">Qty</th>
+                  <th style="width: 10%;">Price</th>
+                  <th style="width: 10%;">GST</th>
+                  <th style="width: 10%;">Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Warrior</th>
+                  <td>1</td>
+                  <td>2000.00</td>
+                  <td>0.00</td>
+                  <td>2,000.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Panther 5G</th>
+                  <td>1</td>
+                  <td>2000.00</td>
+                  <td>0.00</td>
+                  <td>2,000.00</td>
+                </tr>
+  
+              </tbody>
+            </table>
+          </div>
+          <div class="row total-calculation pb-3">
+            <div class="col-sm-7">
+  
+            </div>
+            <div class="col-sm-5">
+              <div class="col-sm-12 payment-ledger p-3">
+                <div class="row">
+                  <div class="col-sm-12  d-flex justify-content-between align-items-center">
+                    <div class="col-sm-8">
+                      <p class="text-start">Sub total</p>
+                    </div>
+                    <div class="col-sm-4">
+                      <p class="text-end">₹6,000.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12  d-flex justify-content-between align-items-center">
+                    <div class="col-sm-8">
+                      <p class="text-start">Discount</p>
+                    </div>
+                    <div class="col-sm-4">
+                      <p class="text-end">₹92.00</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12  d-flex justify-content-between align-items-center">
+                    <div class="col-sm-8">
+                      <p class="text-start"></p>
+                    </div>
+                    <div class="col-sm-4">
+                      <p class="text-end"></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12  d-flex justify-content-between align-items-center">
+                    <div class="col-sm-8">
+                      <p class="text-start font-bold">Total Amount</p>
+                    </div>
+                    <div class="col-sm-4">
+                      <p class="text-end font-bold">₹6,092.00</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 d-flex align-items-center justify-content-between aknowledge p-3">
+          <div class="col-lg-7 col-md-7">
+            <p>4945 Forest Avenue, <br> New York, 10004,<br> United States, <br> 646-888-6885</p>
+          </div>
+          <div class="col-lg-2 col-md-3">
+  
+          </div>
+          <div class=" col-lg-3 col-sm-2 d-flex justify-content-end">
+            <div>
+              <h6>Signature authority</h6>
+              <h6 class="app-subheading-h6">Ev Fort</h6>
+            </div>
+          </div>
+          <hr>
+        </div>
+      </div>
+  
+    </div>
+    <div class="col-sm-2"></div>
+  
+  </div>
